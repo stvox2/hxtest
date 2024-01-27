@@ -1,0 +1,87 @@
+characters={ 
+	ORD_xideruila={
+		name=希德瑞拉
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/希德瑞拉.dds"
+			}
+			army = {   
+				large="gfx/leaders/ORD/希德瑞拉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = "ORD_APDF_DES"
+			traits = { warrior_Ranger  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = { th_trait_Ranger }
+			skill = 7
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 6
+		}
+	}
+
+	ORD_aluoya={
+		name=阿洛雅
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/阿洛雅.dds"
+			}
+			army = {   
+				large="gfx/leaders/ORD/阿洛雅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ORD_afulan={
+		name=阿芙兰
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/阿芙兰.dds"
+			}
+			army = {   
+				large="gfx/leaders/ORD/阿芙兰.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}
+	

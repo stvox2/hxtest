@@ -1,0 +1,36 @@
+LOV_niuqudesanminzhuyi_level_down = {
+	if = {
+		limit = { has_idea = LOV_ideas_1 }
+		swap_ideas = {
+			remove_idea = LOV_ideas_1
+			add_idea = LOV_ideas_9
+		}
+	}
+	else_if = {
+		limit = { has_idea = LOV_ideas_9 }
+		swap_ideas = {
+			remove_idea = LOV_ideas_9
+			add_idea = LOV_ideas_10
+		}
+	}
+	else_if = {
+		limit = { has_idea = LOV_ideas_10 }
+		swap_ideas = {
+			remove_idea = LOV_ideas_10
+			add_idea = LOV_ideas_11
+		}
+	}
+	else_if = {
+		limit = { has_idea = LOV_ideas_11 }
+		swap_ideas = {
+			remove_idea = LOV_ideas_11
+			add_idea = LOV_ideas_12
+	    }
+	}
+	else_if = {
+		limit = { has_idea = LOV_ideas_12 }
+		remove_ideas = LOV_ideas_12
+	}
+
+
+}

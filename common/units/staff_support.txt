@@ -1,0 +1,67 @@
+sub_units = {
+
+    staff_support = {
+		abbreviation = "STS"	#缩写
+		sprite = infantry
+		map_icon_category = infantry	#推测为决定兵模
+		priority = 0	#视觉优先级（决定兵模）
+		ai_priority = 0	#暂且不明，可能为AI使用权重
+		active = no	#是否开局拥有
+		affects_speed = no	#是否影响速度
+		mountaineers = no	#是否为山地步兵师
+		can_be_parachuted = yes		#能否被空投
+		type = {	#暂且不明
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {			#决定是否被学说加成
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+
+
+		combat_width = 0
+
+		need = {
+			staff_equipment = 50
+		}
+		manpower = 300
+		training_time = 120
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.2
+		weight = 0.1
+		
+		mountain = {
+			attack = 0.1
+		}
+
+		river = {
+			movement = 0.2
+		}
+
+		forest = {
+			movement = 0.2
+		}
+
+		hills = {
+			movement = 0.2
+		}
+
+		supply_consumption = 0.12	#补给消耗
+
+		# Support nerfs to combat abilities	#加成系数
+		defense = 0.1
+		breakthrough = -0.1
+		soft_attack = -0.1
+		hard_attack = -0.1
+
+
+		
+	}
+
+}

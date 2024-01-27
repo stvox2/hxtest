@@ -1,0 +1,48 @@
+ideas = {
+
+    country = {
+    morale_flange = {
+	     removal_cost = -1
+            picture = king_edward
+        modifier = {
+	    army_morale_factor = 0.05
+		}
+	
+	   }
+	
+    attack_flange = {
+	     removal_cost = -1
+            picture = king_edward
+        modifier = {
+	    mechanized_attack_factor = 0.2
+	    mechanized_defence_factor = 0.2
+		}
+	  }
+	
+	
+    todld = {
+	     removal_cost = -1
+            picture = king_edward
+        modifier = {
+			MONTHLY_POPULATION = 0.3
+				# CONSUMER_GOODS_FACTOR = 0.01
+				POLITICAL_POWER_GAIN = 0.5
+				TRAINING_TIME_FACTOR = -0.1
+				stability_factor = 0.3
+				# UNITY_FACTOR = 0.1
+				army_org_factor = 0.15
+				conscription_factor = 0.15
+				operative_slot = 3
+				compliance_growth = 0.01
+		}
+	}
+	AI_todld = {
+		removal_cost = -1
+		   picture = king_edward
+	   modifier = {
+		training_time_army_factor = -0.99
+		industrial_capacity_factory = 1
+	   }
+   }
+}
+}

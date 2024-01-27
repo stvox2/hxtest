@@ -1,0 +1,28 @@
+
+state={
+	id=83
+	name="STATE_83"
+
+	history={
+		owner = DIV
+		victory_points = {
+			1200 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = DIV
+
+	}
+
+	provinces={
+		269 782 1200 1481 1656 1800 2645 2811 3330 3377 3663 3986 4220 4686 5137 6800 6864 7097 7685 8157 10033 10627 13732 13775 13776 13796 13858 13865 13888 13935 13957 13964 14006 14007 14070 14154 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

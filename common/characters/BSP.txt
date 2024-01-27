@@ -1,0 +1,34 @@
+characters={ 
+	BSP_gelaikeying={
+		name=格莱科樱
+		portraits={
+			civilian={
+				large="gfx/leaders/BSP/格莱科樱.dds"
+			}
+			army = {   
+				large="gfx/leaders/BSP/格莱科樱.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = "BSP_1_APDF_DES"
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+			corps_commander = {
+				desc = "BSP_1_APDF_DES"
+				legacy_id = 1
+				traits = {  }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 5
+			}
+	
+	}
+}
+	

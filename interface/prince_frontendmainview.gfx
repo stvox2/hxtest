@@ -1,0 +1,66 @@
+#background sprite is in frontendmainviewbg.gfx
+
+spriteTypes = {
+	textSpriteType = {
+		name = "GFX_main_lobby_button"
+		textureFile = "gfx/interface/main_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_options"
+		texturefile = "gfx/interface/frontendmenu/options.dds"
+	}
+	spriteType = {
+		name = "GFX_forum_button"
+		texturefile = "gfx/interface/frontendmenu/forum_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_homepage_button"
+		texturefile = "gfx/interface/frontendmenu/homepage_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_mainmenu_jiaocheng"
+		texturefile = "gfx/interface/frontendmenu/mainmenu_jiaocheng.dds"
+	}
+	spriteType = {
+		name = "GFX_credits"
+		texturefile = "gfx/interface/frontendmenu/credits.dds"
+	}
+	spriteType = {
+		name = "GFX_quit"
+		texturefile = "gfx/interface/frontendmenu/quit.dds"
+	}
+	spriteType = {
+		name = "GFX_mainmenu_button"
+		texturefile = "gfx/interface/frontendmenu/mainmenbut.dds"
+	}
+	spriteType = {
+		name = "GFX_multiplayer_background"
+		texturefile = "gfx/interface/frontendmenu/multiplayerbackground.dds"
+	}
+	spriteType = {
+		name = "GFX_continue"
+		texturefile = "gfx/interface/frontendmenu/continue_but.dds"
+	}
+	spriteType = {
+		name = "GFX_load"
+		texturefile = "gfx/interface/frontendmenu/load_btn.dds"
+	}
+	spriteType = {
+		name = "GFX_new_game"
+		texturefile = "gfx/interface/frontendmenu/new_game_btn.dds"
+	}
+	spriteType = {
+		name = "GFX_back_btn2"
+		texturefile = "gfx/interface/frontendmenu/back_btn2.dds"
+	} 
+		
+	spriteType = {
+		name = "GFX_alpha_stamp"
+		texturefile = "gfx/interface/alpha_stamp.dds"
+	}
+}

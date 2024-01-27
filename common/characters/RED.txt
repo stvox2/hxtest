@@ -1,0 +1,350 @@
+characters={ 
+	RED_maruisha={
+		name=玛瑞莎
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/玛瑞莎.dds"
+			}
+			army = {   
+				large="gfx/leaders/RED/玛瑞莎.dds" 
+				small="gfx/leaders/RED/玛瑞莎内阁.dds"
+			}
+		
+		}
+		country_leader={
+			desc = "RED_1_APDF_DES"
+		     traits = { red_army_organizer polish_peasant_champion }
+			ideology= marxism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		advisor={	
+		    desc = "RED_1_APDF_DES"
+			slot = army_chief
+			idea_token = 玛瑞莎
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_concealment_3 
+			}
+			cost = 100
+        }
+		corps_commander = {
+			desc = "RED_1_APDF_DES"
+			legacy_id = 1
+			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader }
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 6
+		}
+	}
+
+	RED_ninghua={
+		name=凝华
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/凝华.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "RED_6_APDF_DES"
+			legacy_id = 1
+			traits = { ambusher infantry_officer fortress_buster }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	RED_kelana={
+		name=克拉娜
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/克拉娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_gewenlite={
+		name=格温莉特
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/格温莉特.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_anjieruila={
+		name=安捷瑞拉
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/安捷瑞拉.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_peikeli={
+		name=佩可丽
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/佩可丽.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "RED_7_APDF_DES"
+			legacy_id = 1
+			traits = { expert_improviser guerilla_fighter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	RED_lisa={
+		name=丽萨
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/丽萨.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_qietela={
+		name=切特拉
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/切特拉.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_lingxue={
+		name=陵雪
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/陵雪.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_jilan={
+		name=姬蓝
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/姬蓝.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = { unyielding_defender  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	RED_yilian={
+		name=伊莲
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/伊莲.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_kadi={
+		name=卡蒂
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/卡蒂.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RED_airuiqi={
+		name=艾瑞奇
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/艾瑞奇.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "RED_5_APDF_DES"
+			legacy_id = 1
+			traits = { logistics_wizard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+
+	RED_jiangyu={
+		name=江雨
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/江雨.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "RED_3_APDF_DES"
+			legacy_id = 1
+			traits = { infantry_leader jungle_rat }
+			skill = 1
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	RED_zhaoyazou={
+		name=赵雅奏
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/赵雅奏.dds"
+			}
+		}
+		
+		navy_leader = {
+			desc = "RED_2_APDF_DES"
+			legacy_id = 1
+			traits = { fleet_protector concealment_expert cruiser_captain ironside }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=5
+		}
+	}
+	RED_sidiyou={
+		name=斯蒂优
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/斯蒂优.dds"
+			}
+			army = {   
+				large="gfx/leaders/ROA/斯蒂优.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		advisor={	
+			desc = "RED_8_APDF_DES"
+			slot = high_command
+			idea_token = 斯蒂优
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_regrouping_3 
+			}
+			cost = 100
+        }
+		field_marshal = {
+			desc = "RED_8_APDF_DES"
+			legacy_id = 1
+			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
+			skill = 7
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 7
+		}
+	}
+}		

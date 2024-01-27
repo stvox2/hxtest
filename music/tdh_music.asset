@@ -1,0 +1,57 @@
+# MAIN THEME
+music = {
+	name = "hoi4mainthemeallies"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+# NEW EAST ASIA
+music = {
+	name = "tdh_Theatre_Ribet"
+	file = "tdh/tdh_Theatre_Ribet.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Secret_Spell"
+	file = "tdh/tdh_Secret_Spell.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Instrumental"
+	file = "tdh/tdh_Instrumental.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Magical_World"
+	file = "tdh/tdh_Magical_World.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Witch_s_Diary"
+	file = "tdh/tdh_Witch_s_Diary.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Future_Strike"
+	file = "tdh/tdh_Future_Strike.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Eternal_Forest"
+	file = "tdh/tdh_Eternal_Forest.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Dream_with_You"
+	file = "tdh/tdh_Dream_with_You.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Breath"
+	file = "tdh/tdh_Breath.ogg"
+	volume = 0.65
+}
+music = {
+	name = "tdh_Chu"
+	file = "tdh/tdh_Chu.ogg"
+	volume = 0.65
+}

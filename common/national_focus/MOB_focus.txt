@@ -1,0 +1,1205 @@
+focus_tree = {
+	id = MOB_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MOB
+		}
+	}
+	default = no
+	focus = {
+		id = MOB_1
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		x = 6
+		y = 0
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_political_power = 100
+			add_to_variable = { MOB_reparations_production_speed_arms_factory_factor = 0.1 }
+			add_to_variable = { MOB_reparations_production_speed_industrial_complex_factor = 0.1 }
+			add_to_variable = { MOB_reparations_production_speed_buildings_factor = 0.05 }
+			custom_effect_tooltip = MOB_reparations_production_speed_arms_factory_factor_ns_tt	
+			
+		}
+
+	}
+	focus = {
+		id = MOB_2
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_1
+		}
+		x = 2
+		y = 1
+		completion_reward = {
+			208 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 14988
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 15073
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 7540
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 15257
+					instant_build = yes
+				}
+			}
+			209 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 7402
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 15467
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 601
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 1815
+					instant_build = yes
+				}
+			}
+			add_to_variable = { MOB_reparations_production_speed_bunker_factor = 0.05 }
+			custom_effect_tooltip = MOB_reparations_production_speed_coastal_bunker_factor_ns_tt
+		}
+	}
+	focus = {
+		id = MOB_3
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_1
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			every_controlled_state = {
+				limit = { is_core_of = MOB }
+				add_extra_state_shared_building_slots = 1
+			}
+			add_to_variable = { MOB_reparations_global_building_slots_factor = 0.1 }
+			custom_effect_tooltip = MOB_reparations_global_building_slots_factor_factor_ns_tt
+			}
+	}
+	focus = {
+		id = MOB_5
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_2
+		}
+		x = 1
+		y = 2
+		completion_reward = {
+		add_to_variable = { MOB_reparations_production_speed_bunker_factor = 0.05 }
+		custom_effect_tooltip = MOB_reparations_production_speed_coastal_bunker_factor_ns_tt
+		}
+	}
+	focus = {
+		id = MOB_6
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_2
+		}
+		x = 3
+		y = 2
+		completion_reward = {
+			add_to_variable = { MOB_reparations_production_speed_bunker_factor = 0.05 }
+			custom_effect_tooltip = MOB_reparations_production_speed_coastal_bunker_factor_ns_tt
+		}
+	}
+	focus = {
+		id = MOB_4
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_1
+		}
+		x = 11
+		y = 1
+		completion_reward = {
+		add_to_variable = { MOB_reparations_line_change_production_efficiency_factor = 0.1 }
+		add_to_variable = { MOB_reparations_line_production_factory_efficiency_gain_factor = 0.05 }
+		add_to_variable = { MOB_reparations_line_industrial_capacity_factory = 0.1 }
+		add_to_variable = { MOB_reparations_production_lack_of_resource_penalty_factor = -0.1 }
+		custom_effect_tooltip = MOB_reparations_global_production_efficiency_factor_ns_tt
+		}
+	}
+
+
+	focus = {
+		id = MOB_12
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_4
+		}
+		x = 9
+		y = 2
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			custom_effect_tooltip = GER_autobahn_tt
+			hidden_effect = {
+				64 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				59 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				60 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				54 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			}		
+		}
+	}
+	focus = {
+		id = MOB_24
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_12
+		} 
+		x = 9
+		y = 3
+		completion_reward = {
+			if = {
+				limit = {	
+					has_war_support < 0.5
+				}
+				add_war_support = 0.1
+			}
+			else_if = {
+				limit = {
+					has_idea = war_economy
+				}
+				add_political_power = 150
+			}
+			else = {
+				add_ideas = war_economy
+			}
+		}
+	}
+	focus = {
+		id = MOB_13
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = MOB_4
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_industrial_effort_2IC
+			}
+		}
+	}
+	focus = {
+		id = MOB_14
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = MOB_13
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = GER_german_war_economy
+			}
+		}
+		
+	}
+	focus = {
+		id = MOB_7
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10
+		prerequisite = {
+			focus = MOB_4
+		}
+		x = 13
+		y = 2
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 1
+				category = synth_resources
+			}
+			if = {
+				limit = {
+					has_full_control_of_state = 52
+				}
+				52 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = MOB_8
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		prerequisite = {
+			focus = MOB_7
+		}
+		x = 13
+		y = 3
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+	
+        	modify_building_resources = {
+				building = synthetic_refinery
+				resource = rubber
+				amount = 2
+			 }
+	}
+	}
+	focus = {
+		id = MOB_9
+		icon = GFX_goal_generic_build_navy
+		cost = 5.00
+		x = 19
+		y = 0
+		completion_reward = {
+			navy_experience = 25
+			206 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}
+			1232 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}			
+		}
+	}
+	focus = {
+		id = MOB_10
+		icon = GFX_goal_generic_build_airforce
+		cost = 5.00
+		x = 26
+		y = 0
+		completion_reward = {
+			air_experience = 30
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = MOB_11
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		x = 33
+		y = 0
+
+	}
+	focus = {
+		id =  MOB_15
+		icon = GFX_goal_unknown
+		cost = 0.00
+		mutually_exclusive = {
+			focus = MOB_16
+		}
+		x = 53
+		y = 0
+
+	}
+	focus = {
+		id = MOB_16
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = MOB_15
+		}
+		x = 41
+		y = 0
+		completion_reward = {
+		    remove_ideas = MOB_states_47
+		}
+	}
+	focus = {
+		id = MOB_17
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 46
+		y = 6
+		prerequisite = {
+			focus = MOB_53
+		}
+	}
+	
+	focus = {
+		id = MOB_18
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_3
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = MOB_19
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_3
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = MOB_20
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = MOB_19
+			focus = MOB_18
+		}
+		x = 7
+		y = 3
+
+	}
+
+	focus = {
+		id = MOB_21
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_9
+		}
+		x = 17
+		y = 1
+		completion_reward = {
+			navy_experience = 100
+		}
+	}
+	focus = {
+		id = MOB_22
+		icon = GFX_goal_generic_navy_battleship
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_21
+		}
+		mutually_exclusive = {
+			focus = MOB_25
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+	focus = {
+		id = MOB_23
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_22
+		}
+		x = 16
+		y = 3
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = MOB_25
+		icon = GFX_goal_generic_navy_submarine
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_21
+		}
+		mutually_exclusive = {
+			focus = MOB_22
+		}
+		x = 19
+		y = 2
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+	focus = {
+		id = MOB_26
+		icon = GFX_goal_generic_wolf_pack
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_25
+		}
+		x = 19
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	focus = {
+		id = MOB_27
+		icon = GFX_goal_generic_navy_submarine
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_25
+		}
+		x = 21
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = MOB_28
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_9
+		}
+		x = 22
+		y = 1
+		completion_reward = {
+			navy_experience = 25
+			206 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}
+			1232 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}
+		}	
+	}
+	focus = {
+		id = MOB_29
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_28
+		}
+		x = 22
+		y = 2
+		completion_reward = {
+			navy_experience = 25
+			206 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}
+			1232 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes 
+				}
+			}
+		}
+	}
+	focus = {
+		id = MOB_30
+		icon = GFX_goal_generic_air_bomber
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_10
+		}
+		mutually_exclusive = {
+			focus = MOB_31
+		}
+		x = 25
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = cat_strategic_bomber
+				category = tactical_bomber
+			}
+		}
+	}
+	focus = {
+		id = MOB_32
+		icon = GFX_goal_generic_air_fighter2
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_30
+		}
+		x = 25
+		y = 3
+		completion_reward = {
+		    add_tech_bonus = {
+		        ahead_reduction = 2
+		        uses = 1
+		         category = light_fighter
+	             category = cat_heavy_fighter
+	             category = tactical_bomber
+	             category = cat_strategic_bomber
+		}
+		}
+	}
+	focus = {
+		id = MOB_31
+		icon = GFX_goal_generic_air_fighter
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_10
+		}
+		mutually_exclusive = {
+			focus = MOB_30
+		}
+		x = 27
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = MOB_33
+		icon = GFX_goal_generic_air_fighter
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_31
+			focus = MOB_30
+		}
+		x = 26
+		y = 2
+		completion_reward = {
+		    add_tech_bonus = {
+		        ahead_reduction = 2
+		        uses = 1
+		         category = light_fighter
+	             category = cat_heavy_fighter
+	             category = tactical_bomber
+	             category = cat_strategic_bomber
+		}
+		}
+	}
+	focus = {
+		id = MOB_34
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_31
+		}
+		x = 27
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+	focus = {
+		id = MOB_35
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_11
+		}
+		mutually_exclusive = {
+			focus = MOB_36
+		}
+		x = 30
+		y = 1
+
+	}
+	focus = {
+		id = MOB_36
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_11
+		}
+		mutually_exclusive = {
+			focus = MOB_35
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = MOB_37
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_35
+			focus = MOB_36
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = MOB_38
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_37
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = MOB_39
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_35
+			focus = MOB_36
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = MOB_40
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_39
+		}
+		prerequisite = {
+			focus = MOB_37
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = MOB_41
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_35
+			focus = MOB_36
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = MOB_42
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_39
+		}
+		prerequisite = {
+			focus = MOB_41
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = MOB_43
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = MOB_16
+		}
+		x = 38
+		y = 2
+		completion_reward = {
+			create_faction = Renaissance
+		}
+	}
+	focus = {
+		id = MOB_44
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_43
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = MOB_45
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_16
+		}
+		mutually_exclusive = {
+			focus = MOB_46
+		}
+		x = 40
+		y = 1
+		completion_reward = {
+			SHE = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+			
+		}
+	}
+	focus = {
+		id = MOB_46
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_16
+		}
+		mutually_exclusive = {
+			focus = MOB_45
+		}
+		x = 42
+		y = 1
+		completion_reward = {
+			FAL = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			
+		}
+	}
+	focus = {
+		id = MOB_47
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = MOB_16
+		}
+		x = 44
+		y = 2
+		completion_reward = {
+			news_event = { id = mob.1 }
+			GER = {
+				add_opinion_modifier = { target = USA modifier = war_plan_black }
+			}
+			unlock_decision_tooltip = { decision = MOB_gongyejihua_decision show_effect_tooltip = yes show_modifiers = yes }
+		}
+	}
+	focus = {
+		id = MOB_48
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = MOB_47
+		}
+		x = 42
+		y = 3
+		completion_reward = {
+			
+			unlock_decision_tooltip = { decision = MOB_2_gongyejihua_decision show_effect_tooltip = yes show_modifiers = yes }
+		}
+	}
+	focus = {
+		id = MOB_49
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = MOB_48
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = MOB_50
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MOB_47
+		}
+		x = 44
+		y = 3
+		completion_reward = {
+			PEC = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			
+		}
+	}
+	focus = {
+		id = MOB_51
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MOB_50
+		}
+		x = 44
+		y = 4
+		completion_reward = {
+			
+			unlock_decision_tooltip = { decision = MOB_1_gongyejihua_decision show_effect_tooltip = yes show_modifiers = yes }
+		}
+	}
+	focus = {
+		id = MOB_52
+		icon = GFX_goal_unknown
+		cost = 11
+		prerequisite = {
+			focus = MOB_47
+		}
+		x = 46
+		y = 3
+		completion_reward = {
+			FRO = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+			ORT = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+			SNO = {
+				add_ideas = MOB_ideas_2
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+		}
+	}
+	focus = {
+		id = MOB_53
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_51
+		}
+		prerequisite = {
+			focus = MOB_52
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = MOB_54
+		icon = GFX_goal_generic_demand_territory
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_55
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = MOB_56
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_54
+		}
+		x = 53
+		y = 4
+
+	}
+	focus = {
+		id = MOB_57
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_54
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
+		id = MOB_58
+		icon = GFX_idea_MOB_chuandaofangzi
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_57
+		}
+		x = 51
+		y = 5
+
+	}
+	focus = {
+		id = MOB_55
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_59
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = MOB_59
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = MOB_15
+		}
+		x = 53
+		y = 1
+
+	}
+}

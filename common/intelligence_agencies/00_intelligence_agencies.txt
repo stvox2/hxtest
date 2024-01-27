@@ -1,0 +1,38 @@
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "莫比斯情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = MOB }
+	available = { original_tag = MOB }
+}
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "北狐氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = ORT }
+	available = { original_tag = ORT }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "霜狼氏族情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = FRO }
+	available = { original_tag = FRO }
+}
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "军团情报部" }
+	
+	available = { always = yes }
+	
+	default = { tag = LEG }
+	available = { original_tag = LEG }
+}
+

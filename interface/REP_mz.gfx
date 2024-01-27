@@ -1,0 +1,59 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_REP_mz_1"
+		texturefile = "gfx/gui/REP_gui_1.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_REP_mz_2"
+		texturefile = "gfx/gui/REP_gui_2.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_REP_mz_3"
+		texturefile = "gfx/gui/REP_gui_3.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_REP_mz_4"
+		texturefile = "gfx/gui/REP_gui_4.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_REP_mz_5"
+		texturefile = "gfx/gui/REP_gui_5.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_REP_mz_6"
+		texturefile = "gfx/gui/REP_gui_6.png"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_gui_button_1"
+		texturefile = "gfx/gui/gui_button_1.png"
+	}
+	progressbartype = {
+		name = "GFX_REP_mz_progressbar"
+		texturefile1 = "gfx/gui/progressbartexture.png"
+		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
+		size = { x = 198 y = 24 }
+		effectfile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+	progressbartype = {
+		name = "GFX_REP_mz_progressbar2"
+		texturefile1 = "gfx/gui/progressbartexture2.png"
+		texturefile2 = "gfx/gui/cooldown_bar_empty.png"
+		size = { x = 198 y = 24 }
+		effectfile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+	spriteType = {
+		name = "GFX_REP_barframe"
+		size = { x = 206 y = 32 }
+		texturefile = "gfx/gui/progressbarbackground.png"
+	}
+}
+	

@@ -1,0 +1,83 @@
+LOV_civil_war ={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		NOT = {
+				has_country_flag = LOV_in_civil_war_over
+			}
+		}
+	priority = 25
+	visible_when_empty = yes
+}
+LOV_empire ={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		always = yes
+		}
+	visible_when_empty = yes
+	priority = 20
+}
+LOV_debug ={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		
+		}
+	visible_when_empty = yes
+	priority = 199
+}
+LOV_decision_category_1 ={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		
+		}
+	visible_when_empty = yes
+	priority = 20
+}
+LOV_1civil_decision={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		
+		}
+	visible_when_empty = yes
+	priority = 200
+}
+LOV_decision_category_2={
+	allowed = {
+		original_tag = LOV
+	}
+	visible = { 
+		has_country_flag = RED_fascist_movement
+		}
+	visible_when_empty = yes
+	priority = 200
+}
+
+
+#十三恶魔力量解放
+LOV_decision_category_3 = {
+	#活人献祭
+	shitixianji = {
+		cost = 25
+		days_remove = 30
+		days_re_enable = 60
+		allowed = {
+			has_manpower > 10000
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			
+		}
+	}
+
+}

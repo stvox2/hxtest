@@ -1,0 +1,52 @@
+focus_tree = {
+	id = REP_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = REP
+		}
+	}
+	default = no
+	focus = {
+		id = REP_1
+		icon = GFX_goal_generic_construction
+		cost = 14.00
+		x = 6
+		y = 0
+		completion_reward = {
+			add_political_power = 75			
+		}
+
+	}
+	focus = {
+		id = REP_2
+		icon = GFX_goal_unknown
+		cost = 7.00
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = REP_1
+		}
+		completion_reward = {
+			add_stability = 0.05
+			custom_effect_tooltip = REP_unify_s		
+		}
+
+	}
+	focus = {
+		id = REP_3
+		icon = GFX_goal_unknown
+		cost = 7.00
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = REP_1
+		}
+		completion_reward = {
+			add_political_power = 25
+			custom_effect_tooltip = REP_diplo_s		
+		}
+
+	}
+}

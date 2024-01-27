@@ -1,0 +1,19 @@
+generic_decision_category = {
+	icon = generic_prospect_for_resources
+	available = {
+	   
+	}
+	priority = 1
+}
+sg_decision_category = {
+	icon = generic_prospect_for_resources
+	picture =generic_prospect_for_resources
+	allowed = {
+		tag = ROOT
+	}
+	visible = { 
+		is_debug = yes
+		}
+	visible_when_empty = yes
+	priority = 100000
+}

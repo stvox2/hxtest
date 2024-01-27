@@ -1,0 +1,79 @@
+characters={ 
+	WEI_yuanfupei={
+		name=袁芙茜
+		portraits={
+			civilian={
+				large="gfx/leaders/WEI/袁芙茜.dds"
+			}
+			army = {   
+				large="gfx/leaders/WEI/袁芙茜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	WEI_guilin={
+		name=桂琳
+		portraits={
+			civilian={
+				large="gfx/leaders/WEI/桂琳.dds"
+			}
+			army = {   
+				large="gfx/leaders/WEI/桂琳.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	WEI_linfang={
+		name=林芳
+		portraits={
+			civilian={
+				large="gfx/leaders/WEI/林芳.dds"
+			}
+			army = {   
+				large="gfx/leaders/WEI/林芳.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}

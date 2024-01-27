@@ -1,0 +1,73 @@
+characters={ 
+	
+	AIS_luosailuona={
+		name=罗赛罗娜
+		portraits={
+			civilian={
+				large="gfx/leaders/AIS/罗赛罗娜.dds"
+			}
+			army = {   
+				large="gfx/leaders/AIS/罗赛罗娜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = "AIS_1_APDF_DES"
+		     traits = {  }
+			ideology= socialism 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			desc = "AIS_1_APDF_DES"
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	AIS_limilian={
+		name=莉米莉安
+		portraits={
+			civilian={
+				large="gfx/leaders/AIS/莉米莉安.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "AIS_2_APDF_DES"
+			legacy_id = 2
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	AIS_nuobeisi={
+		name=诺贝丝
+		portraits={
+			civilian={
+				large="gfx/leaders/AIS/诺贝丝.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "AIS_3_APDF_DES"
+			legacy_id = 3
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

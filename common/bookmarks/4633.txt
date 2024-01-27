@@ -1,0 +1,119 @@
+bookmarks = {
+	bookmark = {
+		name = "4633_NAME"
+		desc = "4633_DESC"
+		date = 4633.1.1.13
+		picture = "GFX_select_date_4633"
+		default_country = "MOB"
+		default = yes
+		
+		"MOB"={
+			history = "MOB_4633_DESC"
+			ideology = fascism
+			ideas = {
+				MOB_states_47
+				MOB_reparations
+				MOB_reparations
+			}
+			focuses = {
+				MOB_16
+				MOB_15
+				MOB_48
+			}
+		}
+		
+		"LOV"={
+			history = "LOV_4633_DESC"
+			ideology = neutrality
+			ideas = {
+				LOV_ideas_1
+				LOV_ideas_2
+				LOV_ideas_3
+			}
+			focuses = {
+				LOV_focus_1
+				LOV_focus_2
+				LOV_form_order_convention
+			}
+		}
+		
+		"MAG"={
+			history = "MAG_4633_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"RIE"={
+			history = "RIE_4633_DESC"
+			ideology = neutrality
+			ideas = {
+				RIE_states_1
+				RIE_states_2
+				RIE_states_3 
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"TZY"={
+			history = "TZY_4633_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"WIM"={
+			history = "WIM_4633_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SHE"={
+			history = "SHE_4633_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"NGD"={
+		   
+			history = "NGD_NEA_STORM_DESC"
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 
+			
+		}
+	}
+}

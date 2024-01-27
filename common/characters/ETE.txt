@@ -1,0 +1,127 @@
+characters={ 
+	ETE_ZERO={
+		name=ZERO
+		portraits={
+			civilian={
+				large="gfx/leaders/ETE/ZERO.dds"
+			}
+			army = {   
+				large="gfx/leaders/ETE/ZERO.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ETE_jiabilila={
+		name=嘉比里拉
+		portraits={
+			civilian={
+				large="gfx/leaders/ETE/嘉比里拉.dds"
+			}
+			army = {   
+				large="gfx/leaders/ETE/嘉比里拉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ETE_zige={
+		name=紫歌
+		portraits={
+			civilian={
+				large="gfx/leaders/ETE/紫歌.dds"
+			}
+			army = {   
+				large="gfx/leaders/ETE/紫歌.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ETE_huanmo={
+		name=幻沫
+		portraits={
+			civilian={
+				large="gfx/leaders/ETE/幻沫.dds"
+			}
+			army = {   
+				large="gfx/leaders/ETE/幻沫.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+		ETE_baoweizhe={
+			name=保卫者
+			portraits={
+				civilian={
+					large="gfx/leaders/ETE/保卫者.dds"
+				}
+				army = {   
+					large="gfx/leaders/ETE/保卫者.dds" 
+					small="gfx/interface/ideas/XXX.png"
+				}
+			
+			}
+			
+			corps_commander = {
+				legacy_id = 1
+				traits = {  }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 5
+			}
+	    }  
+}

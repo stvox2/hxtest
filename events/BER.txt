@@ -1,0 +1,33 @@
+add_namespace = BER
+country_event = {
+	id = BER.1
+    picture = GFX_
+    title = BER.1.t 
+    desc = BER.1.d 
+    trigger = {
+		date > 4635.3.1
+	}
+    immediate = {
+		hidden_effect = {
+			BER = {
+				declare_war_on = { target = LOV type = annex_everything }
+				transfer_state = 48
+                add_state_core = 48
+				transfer_state = 163
+                add_state_core = 163
+				transfer_state = 162
+                add_state_core = 162
+				transfer_state = 164
+                add_state_core = 164
+			 }
+		}
+		
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = BER.1.a  
+           
+	}
+    
+}

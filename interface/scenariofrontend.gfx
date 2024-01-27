@@ -1,0 +1,164 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_select_date_4633"
+		texturefile = "gfx/interface/select_date_4633.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_4636"
+		texturefile = "gfx/interface/select_date_4636.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_4637"
+		texturefile = "gfx/interface/select_date_4637.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_4638"
+		texturefile = "gfx/interface/select_date_4638.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Ranger_Royal_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_old_Ranger_Royal.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Ranger_Royal_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_old_Ranger_Royal.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Ranger_Royal_icon_small"
+		texturefile = "gfx/texticons/unit_old_Ranger_Royal.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_kingdomz_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_old_kingdomz.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_kingdomz_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_old_kingdomz.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_kingdomz_icon_small"
+		texturefile = "gfx/texticons/unit_old_kingdomz.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Royal_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_old_Royal.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Royal_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_old_Royal.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Royal_icon_small"
+		texturefile = "gfx/texticons/unit_old_Royal.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Magic_Girl_Guards_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_old_Magic_Girl_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Magic_Girl_Guards_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_old_Magic_Girl_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Magic_Girl_Guards_icon_small"
+		texturefile = "gfx/texticons/unit_old_Magic_Girl_Guards.dds"  
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_support_icon_small"
+		texturefile = "gfx/texticons/unit_old_Magic_Girl_Guards.dds"  
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_Fast_hunter_icon_small"
+		texturefile = "gfx/texticons/unit_Fast_hunter_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Fast_hunter_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Fast_hunter_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Fast_hunter_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Fast_hunter_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_samurai_icon_small"
+		texturefile = "gfx/texticons/unit_Elite_samurai_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_samurai_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Elite_samurai_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_samurai_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Elite_samurai_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_guerrillas_icon_small"
+		texturefile = "gfx/texticons/unit_Elite_guerrillas_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_guerrillas_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Elite_guerrillas_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_guerrillas_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Elite_guerrillas_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Legion_hunter_icon_small"
+		texturefile = "gfx/texticons/unit_Legion_hunter_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Legion_hunter_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Legion_hunter_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Legion_hunter_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Legion_hunter_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_knight_icon_small"
+		texturefile = "gfx/texticons/unit_Elite_knight_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_knight_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Elite_knight_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_knight_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Elite_knight_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_combat_icon_small"
+		texturefile = "gfx/texticons/unit_Elite_combat_Guards.dds"  
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_combat_icon_medium"
+		texturefile = "gfx/interface/counters/divisions_large/unit_Elite_combat_Guards.dds"
+	}
+	spriteType = {
+		name = "GFX_unit_Elite_combat_icon_medium_white"
+		texturefile = "gfx/interface/counters/divisions_small/unit_Elite_combat_Guards.dds"
+	}
+}
+

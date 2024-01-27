@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+
+        #解救亚人同胞#
+        RED_ideas_1 = {
+            removal_cost = -1
+            picture = generic_war_preparation
+            modifier = {
+				weekly_manpower = 1500
+			}
+        }
+        #亚人起义#
+        RED_ideas_2 = {
+            removal_cost = -1
+            picture = RED_ideas_2
+            allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+            targeted_modifier = {
+                tag = LOV
+                attack_bonus_against = 0.25
+                defense_bonus_against = 0.25
+            }
+        }
+}
+}

@@ -1,0 +1,41 @@
+add_namespace = WORLD
+news_event = {		#亚人暴动
+	id = WORLD.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event global.1"}
+	title = WORLD.1.t
+	desc = WORLD.1.d
+#	picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.1.a
+		trigger = {
+			original_tag = RED
+		}
+	if = {
+		limit = {
+			is_ai = no
+		}
+		set_global_flag = CM_SE_opened
+		clear_array = CM_SE_event_id_array
+		add_to_array = { CM_SE_event_id_array = 3 }
+	}
+	
+	}
+	option = {
+		name = WORLD.1.b
+		trigger = {
+			NOT = { original_tag = RED }
+		}
+	if = {
+		limit = {
+			is_ai = no
+		}
+		set_global_flag = CM_SE_opened
+		clear_array = CM_SE_event_id_array
+		add_to_array = { CM_SE_event_id_array = 3 }
+	}
+	
+	}
+}

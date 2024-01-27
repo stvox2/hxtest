@@ -1,0 +1,106 @@
+technologies = {
+
+    @4618 = -26
+	@4634 = -20
+	@4635 = -14
+	@4636 = -8
+	@4637 = -2
+	@4638 = 4
+	@4639 = 10
+	@4640 = 16
+	@4641 = 22
+	@4642 = 28
+	@4643 = 34
+    @4644 = 40
+
+    magic_walker_0 = {
+        research_cost = 1
+
+        start_year = 4636
+		
+        folder = {
+			name = walker_folder
+			position = { x = @4636 y = 0 }
+		}
+		
+		categories = {
+			magic
+		}
+        ai_will_do = {
+			factor = 2
+		}
+
+        path = {
+			leads_to_tech = magic_walker_1
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			medium_magic_walker_chassis_0
+		}
+
+		enable_equipment_modules = {
+			magic_basic_walker_leg_0
+			magic_walker_engine_0
+		}
+    }
+
+    magic_walker_1 = {
+        research_cost = 1
+
+        start_year = 4638
+		
+        folder = {
+			name = walker_folder
+			position = { x = @4637 y = 0 }
+		}
+		
+		categories = {
+			magic
+		}
+        ai_will_do = {
+			factor = 2
+		}
+    }
+
+    magic_biological_walker_0 = {
+        research_cost = 1
+
+        start_year = 4636
+		
+        folder = {
+			name = walker_folder
+			position = { x = @4636 y = 4 }
+		}
+		
+		categories = {
+			magic
+		}
+        ai_will_do = {
+			factor = 2
+		}
+
+        path = {
+			leads_to_tech = magic_biological_walker_1
+			research_cost_coeff = 1
+		}
+    }
+
+    magic_biological_walker_1 = {
+        research_cost = 1
+
+        start_year = 4638
+		
+        folder = {
+			name = walker_folder
+			position = { x = @4637 y = 4 }
+		}
+		
+		categories = {
+			magic
+		}
+        ai_will_do = {
+			factor = 2
+		}
+    }
+}

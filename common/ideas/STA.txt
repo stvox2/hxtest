@@ -1,0 +1,15 @@
+ideas = {
+
+	country = {
+
+        #瓦洛庞条约#
+        STA_ideas_1 = {
+            removal_cost = -1
+            picture = generic_war_preparation
+            modifier = {
+				
+			}
+        }
+         
+}
+}

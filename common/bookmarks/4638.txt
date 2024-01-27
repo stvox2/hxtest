@@ -1,0 +1,98 @@
+bookmarks = {
+	bookmark = {
+		name = "4638_NAME"
+		desc = "4638_DESC"
+		date = 4638.1.1.13
+		picture = "GFX_select_date_4638"
+		default_country = "MOB"
+		default = yes
+
+		"MOB"={
+			history = "MOB_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"LOV"={
+			history = "LOV_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"FAL"={
+			history = "FAL_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"RED"={
+			history = "RED_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"LEG"={
+			history = "LEG_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SHE"={
+			history = "SHE_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"TZY"={
+			history = "TZY_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		# minors from DLC ####
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

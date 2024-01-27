@@ -1,0 +1,346 @@
+LOV_civil_war = {
+	LOV_decision_category = {
+		allowed = {
+			
+		}
+		priority = 0
+		complete_effect = {
+			set_cosmetic_tag = LOV_mowangjun_democratic
+		}
+	}
+	LOV_Royal_Revolt_degree_increase = {
+		activation = {
+			has_country_flag = LOV_Royal_Revolt_degree_increase_stop
+		}
+		days_mission_timeout = 14
+		timeout_effect = {
+			add_to_variable = { LOV_Royal_Revolt_degree = 10 }
+			custom_effect_tooltip = LOV_Royal_Revolt_degree_increase_tt
+			activate_mission = LOV_Royal_Revolt_degree_increase
+			if = { #TALLIN (HARNU)
+			limit = {
+				
+				check_variable = { LOV_Royal_Revolt_degree > 100 }
+				
+		   }
+		   ROA = {
+			every_state = {
+				limit = { is_core_of = LOV }
+				add_core_of = ROOT
+			}
+		}
+		   news_event = {
+			id = lov.2
+			
+		  }
+		   }
+		}
+		is_good = no
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+		available = {
+			has_country_flag = LOV_Revolt_degree_increase_stop
+		}
+		
+	}
+	LOV_demihuman_uprising_degree_increase = {
+		activation = {
+			has_country_flag = LOV_demihuman_uprising_degree_increase_stop
+			
+		}
+		days_mission_timeout = 7
+		timeout_effect = {
+			if = {
+				limit = {
+					NOT = { check_variable = { LOV_demihuman_uprising_degree > 100 } }
+					has_idea = LOV_ideas_5
+				}
+				add_to_variable = { LOV_demihuman_uprising_degree = 0.3 }
+			     custom_effect_tooltip = LOV_demihuman_uprising1_degree_effect_tt
+			     activate_mission = LOV_demihuman_uprising_degree_increase
+				 
+			 }
+			 if = { #TALLIN (HARNU)
+			 limit = {
+				NOT = { check_variable = { LOV_demihuman_uprising_degree > 100 } }
+				has_idea = LOV_ideas_6
+			}
+		    
+			add_to_variable = { LOV_demihuman_uprising_degree = 1 }
+			custom_effect_tooltip = LOV_demihuman_uprising2_degree_effect_tt
+			activate_mission = LOV_demihuman_uprising_degree_increase
+			}
+			if = { #TALLIN (HARNU)
+			limit = {
+			   NOT = { check_variable = { LOV_demihuman_uprising_degree > 100 } }
+			   has_idea = LOV_ideas_7
+		   }
+		   
+		   add_to_variable = { LOV_demihuman_uprising_degree = 5 }
+		   custom_effect_tooltip =  LOV_demihuman_uprising3_degree_effect_tt
+		   activate_mission = LOV_demihuman_uprising_degree_increase
+		   }
+			if = { #TALLIN (HARNU)
+			 limit = {
+				NOT = { check_variable = { LOV_demihuman_uprising_degree > 100 } }
+				has_idea = LOV_ideas_2
+			}
+		    
+			add_to_variable = { LOV_demihuman_uprising_degree = 0.5 }
+			custom_effect_tooltip = LOV_demihuman_uprising_degree_effect_tt
+			activate_mission = LOV_demihuman_uprising_degree_increase
+			}
+			if = { #TALLIN (HARNU)
+			limit = {
+				
+				check_variable = { LOV_demihuman_uprising_degree > 100 }
+				
+		   }
+		   every_state = {
+			limit = { is_core_of = LOV }
+			add_core_of = RED
+		}
+		   news_event = {
+			id = lov.1
+			
+		  }
+		   }
+			
+		}
+		is_good = no 
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+		available = {
+			or = {
+				has_completed_focus = LOV_focus_12
+			}
+			has_country_flag = LOV_demihuman_uprising_degree1_increase_stop
+			
+		}
+	}
+	LOV_demihuman_uprising = {
+		cost = 50
+		fire_only_once = no
+		days_re_enable = 14
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			NOT = { has_completed_focus = LOV_focus_12 }
+			NOT = { has_country_flag = LOV_demihuman_uprising_degree_increase_stop }
+			check_variable = { LOV_demihuman_uprising_degree > 0}
+		}
+		complete_effect = {  
+			add_to_variable = { LOV_demihuman_uprising_degree = -5 }
+			custom_effect_tooltip = LOV_demihuman_uprising_tt
+		}
+	}
+	
+}
+LOV_decision_category_2 = {
+	LOV_1_decision= {
+		available = {
+			
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_1_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			if = {
+				
+				add_offsite_building = { type = arms_factory level = 2 }
+			}
+			
+		}
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+		
+	}
+	LOV_2_decision= {
+		available = {
+			
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_2_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			custom_effect_tooltip = RED_fascist_1_movement_tt
+		}
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+		
+	}
+	LOV_3_decision= {
+		available = {
+			
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_3_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = MOB } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = MOB } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = MOB } add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = MOB }  }
+			
+		}
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+	}
+	LOV_4_decision= {
+		available = {
+			
+		} 
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_4_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			add_manpower = 5000
+		}
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+	}
+	LOV_5_decision= {
+		available = {
+			
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_5_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+		allowed = {
+			original_tag = LOV
+		}
+		visible = {
+			
+		}
+	}
+	LOV_6_decision= {
+		available = {
+			
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			set_country_flag = RED_6_degree_increase_stop
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			effect_tooltip = { add_ideas = RED_ideas_1 }
+		}
+		allowed = {
+			original_tag = LOV
+
+		}
+		visible = {
+			
+		}
+	}
+	LOV_7_decision= {
+		available = {
+			NOT = { check_variable = { RED_seize_arms_prep = 4 } }
+			
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			custom_effect_tooltip = MAN_can_prepare_more_tt
+			add_to_variable = { RED_seize_arms_prep = 1 }
+		}
+		allowed = {
+			original_tag = LOV
+
+		}
+		visible = {
+			
+		}
+	}
+	LOV_8_decision= {
+		available = {
+			always = no
+		}
+		cost = 50
+		fire_only_once = yes
+		days_re_enable = 14
+		complete_effect = {
+			custom_effect_tooltip = RED_fascist_womens_movement_tt
+			if = {
+				limit = {
+					check_variable = { RED_seize_arms_prep = 1 }
+				}
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1000 producer = LOV } }
+			}
+			if = {
+				limit = {
+					check_variable = { RED_seize_arms_prep = 2 }
+				}
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } }
+			}
+			if = {
+				limit = {
+					check_variable = { RED_seize_arms_prep = 3 }
+				}
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = LOV } }
+			}
+			if = {
+				limit = {
+					check_variable = { RED_seize_arms_prep = 4 }
+				}
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = LOV } add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = LOV } }
+			}
+			
+		}
+		allowed = {
+			original_tag = LOV
+
+		}
+	}
+	#十三恶魔力量解放
+	LOV_decision_category_3 = {
+		allowed = {
+			tag = LOV
+			has_country_leader = { ruling_only = yes name = "LOV_walundina" }
+			has_completed_focus = LOV_focus_52
+		}
+		priority = 9
+	} 
+} 
+
+

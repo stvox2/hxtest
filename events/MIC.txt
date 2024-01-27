@@ -1,0 +1,17 @@
+add_namespace = mic
+country_event = {
+	id = mic.1
+    picture = GFX_
+    title = mic.1.t 
+    desc = mic.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = mic.1.a  
+            ORT = {
+            add_to_faction = MIC
+            }
+	}
+    
+}

@@ -1,0 +1,327 @@
+division_template = {
+	name = "托梅尼亚王国国防军"			
+		division_names_group = SPAN_INF_01 
+		regiments = { 
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+		}
+		support = {
+			artillery = { x = 0 y = 0 }
+		}	
+}
+division_template = {
+	name = "国民军"			
+		division_names_group = SPAN_INF_01 
+		regiments = { 
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17489 
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2492
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6413
+		division_template = "托梅尼亚王国国防军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}
+units = {
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3048
+		division_template = "国民军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1 
+	}
+}

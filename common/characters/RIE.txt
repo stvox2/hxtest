@@ -1,0 +1,124 @@
+characters={ 
+	RIE_xila={
+		name=席拉
+		portraits={
+			civilian={
+				large="gfx/leaders/RIE/席拉.dds"
+			}
+			army = {   
+				large="gfx/leaders/RIE/席拉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			ideology= Fascism_ideology 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RIE_modaisiti={
+		name=摩黛丝提
+		portraits={
+			civilian={
+				large="gfx/leaders/RIE/摩黛丝提.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RIE_aofeiliya={
+		name=奥菲莉娅
+		portraits={
+			civilian={
+				large="gfx/leaders/RIE/奥菲莉娅.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	RIE_naemi={
+		name=娜娥迷
+		portraits={
+			civilian={
+				large="gfx/leaders/RIE/娜娥迷.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	RIE_aimi={
+		name=艾咪
+		portraits={
+			civilian={
+				large="gfx/leaders/RIE/艾咪.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	RIE_zhaoyazou={
+		name=赵雅奏
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/赵雅奏.dds"
+			}
+		}
+		
+		navy_leader = {
+			desc = "RED_2_APDF_DES"
+			legacy_id = 1
+			traits = { fleet_protector concealment_expert cruiser_captain ironside }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+		}
+	}
+
+}	

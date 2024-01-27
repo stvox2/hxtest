@@ -1,0 +1,31 @@
+
+FAL_cj_decision_category = {
+
+    FAL_cj_decision_diyuhuayuan = {
+        available = {
+	        has_completed_focus = FAL_diyuhuayuan
+	    }
+        remove_effect = {
+
+        }
+
+    }
+	
+}
+FAL_2_decision_category = {
+
+	FAL_1_decision_diyuhuayuan = {
+        available = {
+	        
+	    }
+        remove_effect = {
+            add_to_variable = { ITA_militias_cap = 12 }
+            set_division_template_cap = {  division_template = "魔法少女近卫军" division_cap = ITA_militias_cap }
+            set_division_template_lock = {
+				division_template = "魔法少女近卫军"
+				is_locked = no
+			}
+            }
+
+    }
+}

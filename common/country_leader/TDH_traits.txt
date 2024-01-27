@@ -1,0 +1,43 @@
+leader_traits = {
+	
+	warrior_Ranger = {
+		random = no
+		modifier_army_sub_unit_Ranger_Royal_attack_factor = 0.1
+		modifier_army_sub_unit_Ranger_Royal_defence_factor = 0.1
+		modifier_army_sub_unit_Ranger_Royal_speed_factor = 0.1
+		weekly_manpower = 1000
+		ai_will_do = {
+			factor = -5
+		}
+	}
+	respectable_warrior = {
+		random = no
+		surrender_limit = -0.1
+		command_power_gain = 0.01
+		mobilization_speed = 0.1
+		war_support_factor = 0.1
+	}
+	dignified_enpress = {
+		random = no
+		stability_factor = 0.2
+		political_power_factor = 0.2
+	}
+	excellent_researcher = {
+		random = no
+		research_speed_factor = 0.05
+	}
+	bushanwaijiao = {
+		random = no
+		justify_war_goal_time = -0.1
+		trade_opinion_factor = 0.2
+		opinion_gain_monthly_factor = -0.1
+	} 
+	scientist_demagogue= {
+		sprite = 13
+		random = no
+		research_speed_factor = 0.15
+
+		
+	}
+}
+

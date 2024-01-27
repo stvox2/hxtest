@@ -1,0 +1,367 @@
+division_template = {
+	name = "步兵"			
+		division_names_group = SPAN_INF_01 
+		regiments = { 
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 1 y = 3 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			artillery = { x = 0 y = 1 }
+		}	
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 8408 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16356 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16310 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16357 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 4593 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16248 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 135 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 8478 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 8213 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 6538 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 8632 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16155
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16094 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 3192 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16071 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16168 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 4191 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 10715 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 5582
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 6139 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 15965 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 5261 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 99 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 15950 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 5068
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 8052 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 9614 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16106 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 1185 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 15938 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 9535 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 10541 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 4888 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16034 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 16514 
+		division_template = "步兵"
+		start_experience_factor = 0.3
+	}
+}

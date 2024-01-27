@@ -1,0 +1,24 @@
+characters={ 
+	ZET_没有指挥官={
+		name=没有指挥官
+		portraits={
+			civilian={
+				large="gfx/leaders/ELT/没有指挥官.dds"
+			}
+			army = {   
+				large="gfx/leaders/ELT/没有指挥官.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+	}
+
+}
+	

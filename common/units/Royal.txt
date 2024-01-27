@@ -1,0 +1,494 @@
+sub_units = {
+	Ranger_Royal = {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 25 
+		max_organisation = 50 
+		default_morale = 0.3 
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 120 
+		suppression = 5.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+
+		defense = 0.33 
+		breakthrough = 0.11
+		soft_attack = 0.7 
+		hard_attack = 15 
+
+	}
+	Royal = {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 25 
+		max_organisation = 50 
+		default_morale = 0.3 
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 120 
+		suppression = 5.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+
+		defense = 0.33 
+		breakthrough = 0.11
+		soft_attack = 0.7 
+		hard_attack = 0.4
+		
+		urban = {
+			attack = 0.5
+		}
+		
+		fort = {
+			attack = 0.5
+		}
+
+	}
+	kingdomz = {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 30 
+		max_organisation = 50 
+		default_morale = 0.6
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		defense = 0.11
+		breakthrough = 0.11
+		soft_attack = 0.6
+		hard_attack = 3
+
+	}
+	Magic_Girl_Guards = {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 30 
+		max_organisation = 90 
+		default_morale = 0.41
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			staff_equipment = 100
+		}
+		defense = 3.5
+		breakthrough = 0.20
+		soft_attack = 0.55
+		hard_attack = 9
+		mountain = {
+			attack = 0.25 
+			movement = 0.10 
+		}
+		hills = {
+			attack = 0.30 
+			movement = 0.15 
+		}
+		
+		river = {
+			attack = 0.2
+			movement = 0.5
+		}
+		
+		amphibious = {
+			attack = 0.25
+			movement = 0.25
+		}
+		urban = {
+			attack = 0.10
+			defence = 0.10
+		}
+		fort = {
+			attack = 0.25
+		}
+	}
+	Fast_hunter= {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 30 
+		max_organisation = 60
+		default_morale = 0.41
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		defense = 0.34
+		breakthrough = 0.20
+		soft_attack = 0.9
+		hard_attack = 9
+		mountain = {
+			attack = 0.25 
+			movement = 0.10 
+		}
+		hills = {
+			attack = 0.30 
+			movement = 0.15 
+		}
+		
+		river = {
+			attack = 0.2
+			movement = 0.5
+		}
+		
+		amphibious = {
+			attack = 0.25
+			movement = 0.25
+		}
+		urban = {
+			attack = 0.10
+			defence = 0.10
+		}
+		fort = {
+			attack = 0.25
+		}
+	}
+	Elite_guerrillas= {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 30 
+		max_organisation = 50
+		default_morale = 0.5
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		defense = 0.39
+		breakthrough = 0.1
+		soft_attack = 0.5
+		hard_attack = 3
+		fort = {
+			attack = 0.25
+			movement = 0.25
+			defence = 0.25
+		}
+	}
+	Legion_hunter= {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 35
+		max_organisation = 55
+		default_morale = 0.4
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		defense = 0.39
+		breakthrough = 0.2
+		soft_attack = 0.6
+		hard_attack = 5
+	}
+	Elite_samurai= {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 35
+		max_organisation = 60
+		default_morale = 0.4
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		defense = 0.39
+		breakthrough = 0.15
+		soft_attack = 0.5
+		hard_attack = 3
+		urban = {
+			attack = 0.25
+		}
+		fort = {
+			attack = 0.2
+		}
+	}
+	Elite_knight= {
+		sprite = infantry
+		map_icon_category = infantry
+		active = on    
+		special_forces = on
+		can_be_parachuted = yes
+		priority = 3000 
+		ai_priority = 3000 
+
+		type = {
+			infantry 
+		}
+		
+		group = infantry 
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		
+		combat_width = 2 
+		
+
+		max_strength = 35
+		max_organisation = 5
+		default_morale = 0.4
+		manpower = 1000 
+
+		#Misc Abilities
+		training_time = 130 
+		suppression = 3.0 
+		weight = 0.5 
+
+		supply_consumption = 0.20 
+	
+		need = {
+			infantry_equipment = 100
+		}
+		entrenchment = 1
+		defense = 0.39
+		breakthrough = 0.15
+		soft_attack = 0.5
+		hard_attack = 3
+		urban = {
+			attack = 0.25
+		}
+		fort = {
+			attack = 0.2
+		}
+	}
+}

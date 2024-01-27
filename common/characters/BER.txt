@@ -1,0 +1,56 @@
+characters={ 
+	BER_lingui={
+		name=凛鬼
+		portraits={
+			civilian={
+				large="gfx/leaders/BER/凛鬼.dds"
+			}
+			army = {   
+				large="gfx/leaders/BER/凛鬼.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= Fascism_ideology 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	BER_yixiemei={
+		name=伊邪美
+		portraits={
+			civilian={
+				large="gfx/leaders/BER/伊邪美.dds"
+			}
+			army = {   
+				large="gfx/leaders/BER/伊邪美.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	
+}

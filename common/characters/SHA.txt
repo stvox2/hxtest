@@ -1,0 +1,79 @@
+characters={ 
+	SHA_mei={
+		name=梅
+		portraits={
+			civilian={
+				large="gfx/leaders/SHA/梅.dds"
+			}
+			army = {   
+				large="gfx/leaders/SHA/梅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHA_jiyu={
+		name=冀宇
+		portraits={
+			civilian={
+				large="gfx/leaders/SHA/冀宇.dds"
+			}
+			army = {   
+				large="gfx/leaders/SHA/冀宇.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHA_baoweizhe={
+		name=保卫者
+		portraits={
+			civilian={
+				large="gfx/leaders/SHA/保卫者.dds"
+			}
+			army = {   
+				large="gfx/leaders/SHA/保卫者.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}

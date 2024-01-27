@@ -1,0 +1,420 @@
+characters={ 
+	LOV_bulanershiliushi={
+		name=布兰二十六世
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/布兰二十六世.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/布兰二十六世.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = "LOV_APDF_DES"
+				 traits = { popular_figurehead2 kaiserin_of_the_people autocratic_imperialist  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			desc = "LOV_APDF_DES"
+			legacy_id = 22
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LOV_walundina={
+		name=瓦伦蒂娜
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/瓦伦蒂娜.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/瓦伦蒂娜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = { unpopular_monarch inexperienced_monarch }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LOV_saiweinajia={
+		name=赛维娜嘉
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/赛维娜嘉.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/赛维娜嘉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LOV_silandi={
+		name=斯兰蒂
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/斯兰蒂.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/斯兰蒂.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+		LOV_yilinsina={
+			name=伊琳丝娜
+			portraits={
+				civilian={
+					large="gfx/leaders/LOV/伊琳丝娜.dds"
+				}
+				army = {   
+					large="gfx/leaders/LOV/伊琳丝娜.dds" 
+					small="gfx/interface/ideas/XXX.png"
+				}
+			
+			}
+			
+			corps_commander = {
+				legacy_id = 1
+				traits = {  }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 5
+			}
+	    }  
+
+	LOV_ailinna={
+		name=埃琳娜
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/埃琳娜.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/埃琳娜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}  
+
+	LOV_feiwali={
+		name=菲瓦莉
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/菲瓦莉.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/菲瓦莉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}  
+
+	LOV_ailixiya={
+		name=艾丽希娅
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/艾丽希娅.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/艾丽希娅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+
+	LOV_gelintela={
+		name=格林特拉
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/格林特拉.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/格林特拉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+
+	LOV_mifeixiutiya={
+		name=米菲修缇娅
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/米菲修缇娅.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/米菲修缇娅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+
+	LOV_ailuola={
+		name=艾洛拉
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/艾洛拉.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/艾洛拉.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+	LOV_walunsite={
+		name=瓦伦丝特
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/瓦伦丝特.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/瓦伦丝特.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = "LOV_APDF_DES"
+				 traits = { jefe born_agitator backroom_backstabber  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+
+	LOV_sidiyou={
+		name=斯蒂优
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/斯蒂优.dds"
+			}
+			army = {   
+				large="gfx/leaders/ROA/斯蒂优.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		advisor={	
+		    desc = "RED_斯蒂优_APDF_DES"
+			slot = high_command
+			idea_token = 斯蒂优
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_regrouping_3 
+			}
+			cost = 100
+        }
+		field_marshal = {
+			legacy_id = 1
+			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
+			skill = 7
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 7
+		}
+	}
+
+	LOV_bulalita={
+		name=布拉莉塔
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/布拉莉塔.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/布拉莉塔.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+
+	LOV_ailisi={
+		name=爱丽丝
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/爱丽丝.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/爱丽丝.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+	LOV_bulanershiqishi={
+		name=布兰二十七世
+		portraits={
+			civilian={
+				large="gfx/leaders/LOV/布兰二十七世.dds"
+			}
+			army = {   
+				large="gfx/leaders/LOV/布兰二十七世.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+}
+	

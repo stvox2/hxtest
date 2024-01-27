@@ -1,0 +1,283 @@
+characters={ 
+	STA_sitawushi={
+		name=斯卡五世
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/斯卡五世.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/斯卡五世.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			 ideology= despotism 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_zhennimajuewang={
+		name=珍妮玛珏望
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/珍妮玛珏望.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/珍妮玛珏望.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_linai={
+		name=莉乃
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/莉乃.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/莉乃.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_ruibeika={
+		name=瑞贝卡
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/瑞贝卡.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/瑞贝卡.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_kadi={
+		name=卡蒂
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/卡蒂.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/卡蒂.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_jiangyu={
+		name=江雨
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/江雨.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/江雨.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_jiangxue={
+		name=江雪
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/江雪.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/江雪.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			desc = "RED_4_APDF_DES"
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_hedifuni={
+		name=赫蒂芙尼
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/赫蒂芙尼.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/赫蒂芙尼.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_hedilan={
+		name=赫迪兰
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/赫迪兰.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/赫迪兰.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_airuiqi={
+		name=艾瑞奇
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/艾瑞奇.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "RED_5_APDF_DES"
+			legacy_id = 1
+			traits = { logistics_wizard }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+
+	STA_aimisha={
+		name=艾米莎
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/艾米莎.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/艾米莎.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	STA_miluoxita={
+		name=米洛茜塔
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/米洛茜塔.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/米洛茜塔.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

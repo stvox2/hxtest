@@ -1,0 +1,525 @@
+characters={ 
+	MOB_aipudifei={
+		name=艾普蒂菲
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/艾普蒂菲.dds"
+			}
+			army = {   
+				large="gfx/leaders/MOB/艾普蒂菲.dds" 
+				small="gfx/leaders/MOB/艾普蒂菲内阁.dds"
+			}
+		 
+		}
+		country_leader={
+		desc = "MOB_CHIANG_APDF_DESC"
+		     traits = { dictator economic_organizer }
+			ideology= Fascism_ideology
+			expire="4999.1.1.1"
+			id=-1
+		}
+		内阁
+		advisor={
+			介绍	
+		    desc = "MOB_CHIANG_APDF_DESC"
+			顾问类型
+			slot = high_command
+			顾问名字
+			idea_token = 艾普蒂菲
+			国家
+			allowed = {
+				original_tag = MOB
+			}
+			顾问特质
+			traits = {
+				army_chief_drill_3
+			}
+			政治点数
+			cost = 200
+        }
+		advisor={
+			slot = political_advisor
+			idea_token = 艾普蒂菲
+			allowed = {
+				original_tag = MOB
+				
+			}
+			traits = {
+				captain_of_industry fascist_demagogue
+			}
+		}
+		field_marshal = {
+			desc = "MOB_CHIANG_APDF_DESC"
+			legacy_id = 8
+			traits = { panzer_leader organisational_leader inspirational_leader }
+			skill = 6
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	MOB_weimunai={
+		name=维木奈
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/维木奈.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/维木奈内阁.dds"
+			}
+
+		}
+		advisor={	
+		    desc = "MOB_4_APDF_DESC"
+			slot = high_command
+			idea_token = 维木奈
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+        }
+		corps_commander = {
+			desc = "MOB_4_APDF_DESC"
+			legacy_id = 9
+			traits = { infantry_leader infantry_expert organizer camouflage_expert trait_reckless }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 1
+			planning_skill = 6
+			logistics_skill = 4
+		}
+	}
+
+	MOB_bunisi={
+		name=布尼丝
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/布尼丝.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_7_APDF_DESC"
+			legacy_id = 10
+			traits = { infantry_leader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	MOB_weinuoluya={
+		name=薇诺露娅
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/薇诺露娅.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/薇诺露娅内阁.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_5_APDF_DESC"
+			slot = high_command
+			idea_token = 薇诺露娅
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				army_armored_2
+			}
+			cost = 100
+        }
+		advisor={	
+		    desc = "MOB_5_APDF_DESC"
+			slot = theorist
+			idea_token = 薇诺露娅
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+			cost = 100
+        }
+		
+		corps_commander = {
+			desc = "MOB_5_APDF_DESC"
+			legacy_id = 11
+			traits = { panzer_leader panzer_expert brilliant_strategist }
+			skill = 5
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	MOB_lumiya={
+		name=露米娅
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/露米娅.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_9_APDF_DESC"
+			legacy_id = 12
+			traits = { panzer_leader brilliant_strategist trait_reckless }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	MOB_aiwei={
+		name=艾薇
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/艾薇.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_8_APDF_DESC"
+			legacy_id = 13
+			traits = { panzer_leader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	MOB_sibuluona={
+		name=斯布罗娜
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/斯布罗娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_10_APDF_DESC"
+			legacy_id = 14
+			traits = { panzer_leader panzer_expert fortress_buster }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	MOB_weilianershi={
+		name=薇莲二世
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/薇莲二世.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_11_APDF_DESC"
+			legacy_id = 15
+			traits = { panzer_leader urban_assault_specialist }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 6
+		}
+	}
+
+	MOB_peierka={
+		name=佩尔卡
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/佩尔卡.dds"
+			}
+		}
+		
+		corps_commander = {
+			desc = "MOB_12_APDF_DESC"
+			legacy_id = 16
+			traits = { bearer_of_artillery trait_engineer fortress_buster }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+	MOB_meiselandi={
+		name=梅瑟兰蒂
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/梅瑟兰蒂.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/梅瑟兰蒂内阁.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_1_APDF_DESC"
+			slot = political_advisor
+			idea_token = 梅瑟兰蒂
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				scientist_demagogue 
+			}
+			cost = 100
+        }
+		
+		corps_commander = {
+			desc = "MOB_1_APDF_DESC"
+			legacy_id = 17
+			traits = {  }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
+
+	MOB_kaiselin={
+		name=凯瑟琳
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/凯瑟琳.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_6_APDF_DESC"
+			slot = high_command
+			idea_token = 凯瑟琳
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				army_artillery_2
+			}
+			cost = 100
+        }
+		advisor={	
+		    desc = "MOB_6_APDF_DESC"
+			slot = theorist
+			idea_token = 凯瑟琳
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				superior_firepower_expert
+			}
+			cost = 150
+        }
+		corps_commander = {
+			desc = "MOB_13_APDF_DESC"
+			legacy_id = 18
+			traits = { bearer_of_artillery infantry_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	MOB_modekela={
+		name=莫德克拉
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/莫德克拉.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/莫德克拉内阁.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_6_APDF_DESC"
+			slot = army_chief
+			idea_token = 莫德克拉
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				army_chief_planning_2 
+			}
+			cost = 100
+        }		
+		advisor={	
+		    desc = "MOB_6_APDF_DESC"
+			slot = theorist
+			idea_token = 莫德克拉
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				grand_battle_plan_expert 
+			}
+			cost = 150
+        }
+
+		field_marshal = {
+			desc = "MOB_6_APDF_DESC"
+			legacy_id = 19
+			traits = { bearer_of_artillery infantry_leader thorough_planner }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	MOB_namuleite={
+		name=纳姆蕾特
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/纳姆蕾特.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/纳姆蕾特内阁.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_3_APDF_DESC"
+			slot = navy_chief
+			idea_token = 纳姆蕾特_navy_chief
+			allowed = {
+				original_tag = MOB
+			}
+			available = {
+				NOT = { has_idea = 纳姆蕾特_high_command }
+			}
+			traits = {
+				navy_chief_decisive_battle_2 
+			}
+			cost = 100
+        }
+		advisor={	
+		    desc = "MOB_3_APDF_DESC"
+			slot = high_command
+			idea_token = 纳姆蕾特_high_command
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				army_commando_3
+			}
+			available = {
+				NOT = { has_idea = 纳姆蕾特_navy_chief }
+			}
+			cost = 200
+        }
+		advisor={	
+		    desc = "MOB_2_APDF_DESC"
+			slot = theorist
+			idea_token = 茜拉
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				naval_theorist 
+			}
+			cost = 100
+        }
+		navy_leader = {
+			desc = "MOB_3_APDF_DESC"
+			legacy_id = 20
+			traits = { ironside air_controller cruiser_captain marksman big_guns_expert battleship_adherent }
+			skill = 5
+			attack_skill = 6
+			defense_skill = 6
+			maneuvering_skill = 5
+			coordination_skill = 7
+		}
+	}
+
+	MOB_xila={
+		name=茜拉
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/茜拉.dds"
+			}
+			army = {    
+				small="gfx/leaders/MOB/茜拉内阁.dds"
+			}
+		}
+		advisor={	
+		    desc = "MOB_2_APDF_DESC"
+			slot = navy_chief
+			idea_token = 茜拉
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				navy_submarine_3 
+			}
+			cost = 100
+        }
+		advisor={	
+		    desc = "MOB_2_APDF_DESC"
+			slot = theorist
+			idea_token = 茜拉
+			allowed = {
+				original_tag = MOB
+			}
+			traits = {
+				submarine_specialist 
+			}
+			cost = 100
+        }
+		
+		navy_leader = {
+			desc = "MOB_2_APDF_DESC"
+			legacy_id = 21
+			traits = { seawolf bold crisis_magician }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 7
+			coordination_skill = 5
+		}
+	}
+	GER_carl_friedrich_goerdeler={
+		name=GER_carl_friedrich_goerdeler
+		portraits={
+			army={
+				small="GFX_idea_GER_carl_friedrich_goerdeler"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GER_carl_friedrich_goerdeler
+			allowed = {
+				original_tag = GER
+				has_dlc = "Waking the Tiger"
+			}
+			available = {
+				has_completed_focus = GER_revive_the_kaiserreich 
+			}
+			traits = {
+				economist 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}		
+	}
+}		

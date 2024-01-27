@@ -1,0 +1,123 @@
+bookmarks = {
+	bookmark = {
+		name = "4636_NAME"
+		desc = "4636_DESC"
+		date = 4639.1.1.13
+		picture = "GFX_select_date_4636"
+		default_country = "MOB"
+		default = yes
+
+		"MOB"={
+			history = "MOB_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"LOV"={
+			history = "LOV_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"FAL"={
+			history = "FAL_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"RED"={
+			history = "RED_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"LEG"={
+			history = "LEG_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SHE"={
+			history = "SHE_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"TZY"={
+			history = "TZY_4636_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		
+		"ORD"={
+		    minor = yes
+			history = "ORD_4636_DESC"
+			ideology = neutrality
+			ideas = {
+				deterrence
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
+		}
+		"POL"={
+			minor = yes
+			history = "POL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				deterrence
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

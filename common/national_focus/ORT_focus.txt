@@ -1,0 +1,56 @@
+focus_tree = {
+	id = ORT_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ORT
+		} 
+	}
+	default = no
+
+#新国策
+#4633年的冬天
+focus={
+	id=ORT_1
+	x=5
+	y=0
+	cost=10
+	ai_will_do={
+		base=10
+	}
+	available_if_capitulated=yes
+	completion_reward = {
+		news_event = { id = ort.2 }
+	}
+}
+#帝国线：由斯塔王国支持的伊莎的副手，突突掉伊莎和布莎后在斯塔的支持下自己加冕为北方大公，被斯卡九世册封为北大公（这时候是附庸，等厂到一定数量后可以造反也可以继续当狗）（斯卡五世并不知道这件事，随口答应的）
+#后面细分为当斯塔的狗线和帝国线（统一北方各个亚人氏族）（如果选择当狗斯塔在被灭了以后就可以在被夹击消灭以后润去这里，可以篡位夺下北方亚人的土地）
+#氏族线：普通线
+#独裁线：在伊莎失踪后布莎在与长老们的商讨中深感长老们是群虫豸，决定突突掉长老，自己带领雪狐氏族
+#威胁的预兆
+focus = {
+	id = ORT_3
+	cost = 10
+	prerequisite = {
+		focus = ORT_1
+	}
+	x = 5
+	y = 1
+	completion_reward = { 
+	}
+}
+#北方氏族联合会议
+focus = {
+	id = ORT_2
+	cost = 10
+	prerequisite = {
+		focus = ORT_2
+	}
+	x = 5
+	y = 2
+	completion_reward = {
+
+	 }
+}
+}

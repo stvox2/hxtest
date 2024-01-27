@@ -1,0 +1,26 @@
+
+state={
+	id=926
+	name="STATE_926"
+
+	history={
+		owner = ZHI
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = ZHI
+
+	}
+
+	provinces={
+		1236 4982 6280 7382 7673 7937 8207 9733 15542 15549 15690 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+add_namespace = fro
+country_event = {
+	id = fro.1
+    picture = GFX_
+    title = fro.1.t 
+    desc = fro.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = fro.1.a  
+            ORT = {
+            add_to_faction = FRO
+            }
+	}
+    
+}

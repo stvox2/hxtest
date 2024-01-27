@@ -1,0 +1,460 @@
+focus_tree={
+	country={
+		factor=0
+		modifier={
+			add=10
+			tag=RIE
+		}
+	}
+	default=no
+	#混乱的政局
+	focus={
+		id=RIE_1
+		mutually_exclusive = {
+			focus = RIE_3
+		}
+		x=5
+		y=0
+		cost=10
+		ai_will_do={
+			base=10
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+			add_political_power = 75
+		}
+	}
+    #审视国内局势
+	focus = {
+		id = RIE_2
+		relative_position_id = RIE_1
+		prerequisite = {
+			focus = RIE_1
+		}
+		cost = 10
+		x = 0
+		y = 1
+		completion_reward = { 
+			add_stability = 0.05
+		}
+	}
+	#反抗意识觉醒
+	focus = {
+		id = RIE_3
+		mutually_exclusive = {
+			focus = RIE_1
+		}
+		cost = 10
+		x = 12
+		y = 0
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = -0.05
+		 }
+	}
+	focus = {
+		id = RIE_4
+		relative_position_id = RIE_3
+		prerequisite = {
+			focus = RIE_3
+		}
+		cost = 10
+		x = -1
+		y = 1
+		completion_reward = { }
+	}
+	#里斯亚尼亚工业计划
+	focus = {
+		id = RIE_5
+		cost = 10
+		x = -7
+		y = 0
+		completion_reward = { 
+			unlock_decision_category_tooltip =RIE_decision_category
+		}
+	}
+	#进口先进设备
+	focus = {
+		id = RIE_6
+		prerequisite = {
+			focus = RIE_5
+		}
+		cost = 5
+		x = -1
+		y = 1
+		completion_reward = { 
+			add_timed_idea = {
+				idea = RIE_states_4
+				days = 100
+			}
+		}
+	}
+	#改善北方基础设施
+	focus={
+		id = RIE_7
+		prerequisite = {
+			focus = RIE_6
+		}
+		cost = 5
+		x = -1
+		y = 2
+		completion_reward= {
+			688 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+		}
+		    700 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+			}
+			701 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+			}
+			693 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+			}
+			689 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+			}
+			623 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+			}
+			}
+	    }
+    }
+	#吸引外资
+	focus = {
+		id = RIE_8
+		prerequisite = {
+			focus = RIE_7
+		}
+		mutually_exclusive = {
+			focus = RIE_9
+		}
+		cost = 10
+		x = -4
+		y = 3
+		completion_reward = { 
+			add_offsite_building = {
+				type = industrial_complex 
+				level = 4
+			}
+			#给张科研卡
+		}
+	}
+	#扩展本国工业
+	focus = {
+		id = RIE_9
+		prerequisite = {
+			focus = RIE_7
+		}
+		mutually_exclusive = {
+			focus = RIE_8
+		}
+		cost = 10
+		x = 2
+		y = 3
+		completion_reward = {
+			696 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			699 = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 1
+				}
+			}
+			718 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_building_construction = {
+					type =  industrial_complex 
+					level = 1
+				}
+			}
+		 }
+	}
+	#科斯蒂铁路
+	focus = {
+		id = RIE_10
+		cost = 10
+		x = -1
+		y = 4
+		prerequisite = {
+			focus = RIE_8  
+			focus = RIE_9
+		}
+		completion_reward = { 
+			build_railway = {
+				path = { 2538 4823 20031 20045 20035 20013 8843 10241 10780 19897 19904 7924 2657 6422 19946 4135 19913 6327 4378 416 19859 140 4438 19837 3327 19814 2278 19741 715 7694 4745 2611 6140 1561 19817 19845 2389 }
+			}
+		}
+	}
+	#沃图新工业区
+	focus = {
+		id = RIE_11
+		prerequisite = {
+			focus = RIE_8
+		}
+		cost = 10
+		x = -5
+		y = 4
+		completion_reward = {
+			730 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+				}
+			}
+		}
+	}
+	#整合环湖工业
+	focus = {
+		id = RIE_12
+		prerequisite = {
+			focus = RIE_13
+		}
+		cost = 10
+		x = 3
+		y = 5
+		completion_reward = { 
+			715 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+
+			714 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			711 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			713 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+	}
+	#哈博钢铁厂
+	focus = {
+		id = RIE_13
+		prerequisite = {
+			focus = RIE_9
+		}
+		cost = 10
+		x = 3
+		y = 4
+		completion_reward = { 
+			706 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			706 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+			}
+		}
+	}
+	#全面开放投资
+	focus = {
+		id = RIE_14
+        prerequisite = {
+			focus= RIE_11
+		}
+		cost = 10
+		x=-5
+		y=5
+		completion_reward = {
+			unlock_decision_category_tooltip =RIE_decision_category2
+		}
+	}
+	#沃乌航天基地
+	focus = {
+		id = RIE_15
+		prerequisite = {
+			focus = RIE_9
+		}
+		cost = 10
+		x = 4
+		y = 7
+		completion_reward = {
+			710 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = air_base
+				level = 2
+			}
+		}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+	}
+	#罗赛尔协定
+	focus = {
+		id = RIE_16
+		prerequisite = {
+			focus = RIE_8
+		}
+		available = {
+			country_exists = LOV
+			has_opinion = { 
+				target = LOV
+				value > 39 
+			}  
+		}
+		cost = 10
+		x = -3
+		y = 4
+		completion_reward = {
+			add_timed_idea = { 
+			idea= RIE_states_5 
+			days= 365 
+		}
+		}
+	}
+	#国家银行
+	focus= {
+		id = RIE_17
+		prerequisite = {
+			focus = RIE_5
+		}
+		cost = 10
+		x = -7
+		y = 1
+		completion_reward = {
+		}
+	}
+	#费里什纳援助条约
+	focus = {
+		id = RIE_18
+		prerequisite = {
+			focus = RIE_9
+		}
+		available = {
+			country_exists = MOB
+            has_opinion = { 
+				target = MOB
+				value > 19
+			}  
+		}
+		cost = 10
+		x = 1
+		y = 4
+		completion_reward = { 
+			add_timed_idea = {
+				idea = RIE_states_6
+				days = 365
+			}
+		}
+	}
+	#将里斯雅尼亚工厂数量削到40左右，随后加入大量加工厂的国策和决议
+	#环湖工业做成决议，加大量工厂
+	#莫比斯科研团
+	focus = {
+		id = RIE_19
+		prerequisite = {
+			focus = RIE_18
+		}
+		available = {
+		  country_exists = MOB
+		}
+		cost = 5
+		x = 1
+		y = 5
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	#洛维尼亚皇家研究所分所
+	focus = {
+		id = RIE_20
+		prerequisite = {
+			focus = RIE_16
+		}
+		available = {
+		  country_exists = LOV
+		}
+		cost = 5
+		x = -3
+		y = 5
+		completion_reward = { 
+			add_research_slot = 1
+		}
+	}
+	#托莉铁路公司
+	focus = {
+		id = RIE_21
+		prerequisite = {
+			focus = RIE_10
+		}
+		cost = 5
+		x = -1
+		y = 5
+		completion_reward = { 
+			add_ideas = RIE_states_7
+		}
+	}
+}
+

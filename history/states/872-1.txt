@@ -1,0 +1,26 @@
+
+state={
+	id=872
+	name="STATE_872"
+
+	history={
+		owner = KAN
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = KAN
+
+	}
+	
+	provinces={
+		560 1544 3098 3180 3960 6757 10540 17083 17122 17134 17148 17183 17184 17191 17210 17248 17276 17325 17336 17355 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

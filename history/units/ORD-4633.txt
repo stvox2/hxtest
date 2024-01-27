@@ -1,0 +1,74 @@
+
+division_template = {
+	name = "皇家骑士"			
+		division_names_group = ORD_INF_01 
+		regiments = { 
+			Ranger_Royal = { x = 0 y = 0 }
+			Ranger_Royal = { x = 0 y = 1 }
+			Ranger_Royal = { x = 0 y = 2 }
+			Ranger_Royal = { x = 1 y = 0 }
+			Ranger_Royal = { x = 1 y = 1 }
+			Ranger_Royal = { x = 1 y = 2 }
+			Ranger_Royal = { x = 2 y = 0 }
+			Ranger_Royal = { x = 2 y = 0 }
+			Ranger_Royal = { x = 2 y = 0 }
+		}
+		support = {
+			   engineer = { x = 0 y = 0 }
+		}	
+	}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9499 
+		division_template = "皇家骑士"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9499 
+		division_template = "皇家骑士"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9499 
+		division_template = "皇家骑士"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9499 
+		division_template = "皇家骑士"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9499 
+		division_template = "皇家骑士"
+		start_experience_factor = 0.3
+	}
+}

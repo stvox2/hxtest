@@ -1,0 +1,57 @@
+characters={ 
+	SNO_yao={
+		name=遥
+		portraits={
+			civilian={
+				large="gfx/leaders/SNO/遥.dds"
+			}
+			army = {   
+				large="gfx/leaders/SNO/遥.dds" 
+				small="gfx/leaders/SNO/遥内阁.dds"
+			}
+		
+		}
+		country_leader={
+		desc = "SNO_1_APDF_DES"
+		     traits = {  }
+			ideology= socialism 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			desc = "SNO_1_APDF_DES"
+			legacy_id = 1
+			traits = { winter_expert infantry_expert brilliant_strategist career_officer media_personality infantry_officer infantry_leader bearer_of_artillery }
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	SNO_xuejin={
+		name=雪晶
+		portraits={
+			civilian={
+				large="gfx/leaders/SNO/雪晶.dds"
+			}
+			army = {   
+				large="gfx/leaders/SNO/雪晶.dds" 
+				small="gfx/leaders/SNO/雪晶内阁.dds"
+			}
+		
+		}
+		corps_commander = {
+			desc = "SNO_2_APDF_DES"
+			legacy_id = 2
+			traits = { panzer_expert panzer_leader armor_officer brilliant_strategist winter_specialist organizer }
+			skill = 5
+			attack_skill = 7
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}	

@@ -1,0 +1,843 @@
+division_template = {
+	name = "军团中坦装甲师军"			
+		division_names_group = LEG_INF_03 
+		regiments = { 
+			medium_armor = { x = 0 y = 0 }
+			medium_armor = { x = 0 y = 1 }
+			medium_armor = { x = 0 y = 2 }
+			medium_armor = { x = 0 y = 3 }
+			medium_armor = { x = 1 y = 0 }
+			medium_armor = { x = 1 y = 1 }
+			medium_armor = { x = 1 y = 2 }
+			medium_armor = { x = 1 y = 3 }
+            motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+			motorized = { x = 3 y = 0 }
+			motorized = { x = 3 y = 1 }
+			motorized = { x = 3 y = 2 }
+			motorized = { x = 3 y = 3 }
+			mot_artillery_brigade = { x = 2 y = 2 }
+			mot_artillery_brigade = { x = 2 y = 3 }
+		}
+	}
+division_template = {
+	name = "军团防卫军"			
+		division_names_group = LEG_INF_06 
+		regiments = { 
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 0 y = 3 }
+			infantry = { x = 0 y = 4 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+		}
+		support = {
+			   engineer = { x = 0 y = 0 }
+		}	
+	}
+division_template = {
+	name = "军团猎手"			
+			division_names_group = LEG_INF_02 
+			regiments = { 
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 0 y = 4 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 } 
+				artillery_brigade = { x = 2 y = 0 }
+				artillery_brigade = { x = 2 y = 1 }
+				artillery_brigade = { x = 2 y = 2 }
+			}
+			support = {
+				   engineer = { x = 0 y = 0 }
+				   artillery = { x = 0 y = 1 }
+				   recon = { x = 0 y = 2 } 
+			}	
+}
+division_template = {
+	name = "军团中坦装甲师军"			
+		division_names_group = LEG_INF_03 
+		regiments = { 
+			medium_armor = { x = 0 y = 0 }
+			medium_armor = { x = 0 y = 1 }
+			medium_armor = { x = 0 y = 2 }
+			medium_armor = { x = 0 y = 3 }
+			medium_armor = { x = 1 y = 0 }
+			medium_armor = { x = 1 y = 1 }
+			medium_armor = { x = 1 y = 2 }
+			medium_armor = { x = 1 y = 3 }
+            motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+			motorized = { x = 3 y = 0 }
+			motorized = { x = 3 y = 1 }
+			motorized = { x = 3 y = 2 }
+			motorized = { x = 3 y = 3 }
+			mot_artillery_brigade = { x = 2 y = 2 }
+			mot_artillery_brigade = { x = 2 y = 3 }
+		}
+	}
+division_template = {
+	name = "军团装甲车"			
+		division_names_group = LEG_INF_04 
+		regiments = { 
+			armored_car = { x = 0 y = 0 }
+			armored_car = { x = 0 y = 1 }
+			armored_car = { x = 0 y = 2 }
+			armored_car = { x = 0 y = 3 }
+			armored_car = { x = 0 y = 4 }
+			armored_car = { x = 1 y = 0 }
+			armored_car = { x = 1 y = 1 }
+		}
+		support = {
+			armored_car_recon = { x = 0 y = 0 }
+		}	
+	}
+	division_template = {
+		name = "轻坦装甲师"
+	
+		division_names_group = LEG_INF_05
+	
+		regiments = {
+			light_armor = { x = 0 y = 0 }
+			light_armor = { x = 0 y = 1 }
+			light_armor = { x = 0 y = 2 }
+			light_armor = { x = 0 y = 3 }
+			light_armor = { x = 1 y = 0 }
+			light_armor = { x = 1 y = 1 }
+			light_armor = { x = 1 y = 2 }
+			light_armor = { x = 1 y = 3 }
+			motorized = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+			motorized = { x = 3 y = 0 }
+			motorized = { x = 3 y = 1 }
+			motorized = { x = 3 y = 2 }
+			motorized = { x = 3 y = 3 }
+			mot_artillery_brigade = { x = 2 y = 2 }
+		}
+		support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			artillery = { x = 0 y = 2 }
+		}
+	}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 9546
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 9451
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 4513
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 6071
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 7279
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 11379
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 11335
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 8
+			}
+			location = 4235 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 9
+			}
+			location = 11288 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 10
+			}
+			location = 11351 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 11
+			}
+			location = 11320
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 12
+			}
+			location = 9143 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 13
+			}
+			location = 6786
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 14
+			}
+			location = 10753 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10753 
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10753
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 11225
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 11225
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3	
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 17093
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 6066
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 16970 
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 16928 
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 16953 
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 2085 
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 3635 
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 7467
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 3336
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 8
+			}
+			location = 17040
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 9
+			}
+			location = 5949
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 10
+			}
+			location = 5949
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 11
+			}
+			location = 11691
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 12
+			}
+			location = 11691
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 13
+			}
+			location = 11691
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 14
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 15
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 16
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 17
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 18
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 19
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 20
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 21
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 6047
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 4513 
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 4513
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 6071 
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 7279 
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 11335 
+			division_template = "军团装甲车"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 11320
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+      }
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 3572
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+      }
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 3572
+			division_template = "军团中坦装甲师军"
+			start_experience_factor = 0.3
+      }
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 15
+			}
+			location = 3635 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 16
+			}
+			location = 16953
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 17
+			}
+			location = 4079 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 18
+			}
+			location = 16921 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 19
+			}
+			location = 7469 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 20
+			}
+			location = 16873
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 21
+			}
+			location = 16928 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 16970 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 17469 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 8462 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 17331 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 17251 
+			division_template = "军团猎手"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 17158			
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 17088			
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+units = {
+		division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 22
+			}
+			location = 160			
+			division_template = "军团防卫军"
+			start_experience_factor = 0.3
+	}
+}
+

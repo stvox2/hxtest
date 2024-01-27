@@ -1,0 +1,134 @@
+
+SHE_ai_decision_category = {
+
+    SHE_ai_decision_diyuhuayuan = {
+			 ai_will_do = {
+			factor = 100
+		}
+	   fire_only_once = yes
+        available = {
+		NOT = { has_war_with = DUC }
+		NOT = { has_war_with = RUT }
+	    or = {
+		owns_state = 49
+		owns_state = 165
+		owns_state = 166
+		owns_state = 168
+		owns_state = 169
+		owns_state = 170
+		owns_state = 171
+		owns_state = 172
+		owns_state = 173
+		owns_state = 50
+	    }
+	    }
+		visible = {
+			is_ai = yes
+		}
+		remove_effect = {
+		transfer_state = 49
+		transfer_state = 50
+        transfer_state = 165
+		transfer_state = 166
+		transfer_state = 167
+		transfer_state = 168
+		transfer_state = 169
+		transfer_state = 170
+		BER = {
+		set_capital = 48
+		transfer_state = 48
+		transfer_state = 517
+		transfer_state = 163
+		transfer_state = 162
+		transfer_state = 164
+		transfer_state = 171
+		transfer_state = 172
+		transfer_state = 173
+		}
+		}
+    }
+}
+SHE_gbpaint_decision_category= {
+
+    SHE_1_decision_diyuhuayuan = {
+			 ai_will_do = {
+			factor = 100
+		}
+	   fire_only_once = yes
+        available = {
+		BER = {
+		owns_state = 48
+		owns_state = 517
+		owns_state = 163
+		owns_state = 162
+		owns_state = 164
+		}
+	    }
+		remove_effect = {
+		BER = {
+		transfer_state = 48
+		add_state_core = 48
+		transfer_state = 517
+		add_state_core = 517
+		transfer_state = 163
+		add_state_core = 163
+		transfer_state = 162
+		add_state_core = 162
+		transfer_state = 164
+		add_state_core = 164
+		}
+		
+			
+		}
+    }
+	SHE_2_decision_diyuhuayuan = {
+			 ai_will_do = {
+			factor = 100
+		}
+	   fire_only_once = yes
+        available = {
+		NOT = { country_exists = DUC }
+		NOT = { country_exists = RUT }
+	    }
+		remove_effect = {
+		every_state = {
+			limit = { is_core_of = DUC }
+			add_core_of = BER
+		}
+				every_state = {
+			limit = { is_core_of = RUT }
+			add_core_of = BER
+		}
+		BER = {
+		transfer_state = 48
+		transfer_state = 49
+		transfer_state = 50
+        transfer_state = 165
+		transfer_state = 166
+		transfer_state = 167
+		transfer_state = 168
+		transfer_state = 169
+		transfer_state = 170
+		transfer_state = 163
+		transfer_state = 162
+		transfer_state = 164
+		transfer_state = 171
+		transfer_state = 172
+		transfer_state = 173
+		transfer_state = 517
+		}	
+		}
+    }
+		SHE_3_decision_diyuhuayuan = {
+		ai_will_do = {
+			factor = 100
+		}
+	   fire_only_once = yes
+        available = {
+
+	    }
+		remove_effect = {
+		
+		}
+    }
+}

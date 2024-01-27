@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+
+        #瓦洛庞条约#
+        KIA_ideas_1 = {
+            removal_cost = -1
+            picture = generic_war_preparation
+            modifier = {
+				army_core_attack_factor = 0.25
+	            army_core_defence_factor = 0.25
+			}
+		targeted_modifier = {
+		tag = ZET
+		attack_bonus_against = 0.5
+		defense_bonus_against = 0.5
+	}
+        }
+         
+}
+}

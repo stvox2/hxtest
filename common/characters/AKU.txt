@@ -1,0 +1,33 @@
+characters={ 
+	AKU_kama={
+		name=卡玛
+		portraits={
+			civilian={
+				large="gfx/leaders/AKU/卡玛.dds"
+			}
+			army = {   
+				large="gfx/leaders/AKU/卡玛.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = "AKU_1_APDF_DES"
+		     traits = {  }
+			ideology= socialism 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			desc = "AKU_1_APDF_DES"
+			legacy_id = 4
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}	

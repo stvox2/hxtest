@@ -1,0 +1,22 @@
+characters={ 
+	MIC_没有指挥官={
+		name=没有指挥官
+		portraits={
+			civilian={
+				large="gfx/leaders/MIC/没有军官.dds"
+			}
+			army = {   
+				large="gfx/leaders/MIC/没有军官.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= socialism
+				expire="4999.1.1.1"
+				id=-1
+			}
+	}
+}

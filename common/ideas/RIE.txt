@@ -1,0 +1,75 @@
+ideas = {
+
+	country = {
+		#混乱的政府
+		RIE_states_1 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			on_add = {
+			}
+			on_remove = {
+			}
+			modifier = {
+				political_advisor_cost_factor = 0.15
+				political_power_cost = 0.3
+				stability_factor = -0.15
+			}
+		}
+
+		RIE_states_2 = {
+			allowed_civil_war = {
+				always = yes
+		    }
+			on_add = {
+			}
+			on_remove = {
+			}
+		    modifier = { 
+			    army_chief_cost_factor = 0.15
+			    navy_chief_cost_factor = 0.15
+			    air_chief_cost_factor = 0.15
+			    high_command_cost_factor = 0.15
+	        }
+	    }
+		RIE_states_3 = {
+			allowed_civil_war = {
+				always = yes
+		    }
+			on_add = {
+			}
+			on_remove = {
+			}
+			modifier = { 
+				stability_factor = -0.05
+			}
+
+	    }
+		#先进设备
+		RIE_states_4 = { 
+           modifier = {
+			production_factory_efficiency_gain_factor = 0.1  
+		   }
+		}
+	    #洛维尼亚的投资
+		RIE_states_5= {
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		#莫比斯的援助
+		RIE_states_6={
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		#托莉铁路公司
+		RIE_states_7= {
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+    }
+}

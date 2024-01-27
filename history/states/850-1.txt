@@ -1,0 +1,26 @@
+
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = WEI
+ 
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = WEI
+
+	}
+
+	provinces={
+		1081 2334 5099 5965 10465 11991 11993 12035 12078 12079 12126 12127 12130 12157 12164 12184 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,36 @@
+RIE_decision_category = {
+	RIE_gongyejihua = {
+		cost = 50
+		days_remove = 90
+
+		allowed = {
+			tag = RIE
+		}
+		available = {
+			has_completed_focus = RIE_5
+		}
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = RIE_5
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		remove_effect = {
+			716 = {
+				add_building_construction = {
+					type = industrial_complex 
+					level = 1
+					instant_build = yes 
+			}
+		}
+			716 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes 
+				}
+			}
+	}
+}
+}

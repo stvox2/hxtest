@@ -1,0 +1,51 @@
+characters={ 
+	MAG_ailin={
+		name=艾琳
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/艾琳.dds"
+			}
+			army = {   
+				large="gfx/leaders/MAG/艾琳.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			ideology= socialism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	MAG_geladisi={
+		name=格拉蒂丝
+		portraits={
+			civilian={
+				large="gfx/leaders/MAG/格拉蒂丝.dds"
+				small="gfx/interface/ideas/XXX.png"
+			}
+		}
+
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

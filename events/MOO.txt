@@ -1,0 +1,17 @@
+add_namespace = moo
+country_event = {
+	id = moo.1
+    picture = GFX_
+    title = moo.1.t 
+    desc = moo.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = moo.1.a  
+            ORT = {
+            add_to_faction = MOO
+            }
+	}
+    
+}

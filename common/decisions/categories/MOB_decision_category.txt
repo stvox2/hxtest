@@ -1,0 +1,6 @@
+MOB_decision_category = {
+	allowed = {
+		tag = MOB
+	}
+	priority = 5
+}

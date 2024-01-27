@@ -1,0 +1,183 @@
+characters={ 
+	FAL_naierjiade={
+		name=奈尔嘉德
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/奈尔嘉德.dds"
+			}
+			army = {   
+				large="gfx/leaders/FAL/奈尔嘉德.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		    traits = {  }
+			ideology= socialism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_nuolina={
+		name=诺丽娜
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/诺丽娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_yinuoya={
+		name=伊诺雅
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/伊诺雅.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_aeraili={
+		name=阿尔艾莉
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/阿尔艾莉.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_kuna={
+		name=库娜
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/库娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_balunna={
+		name=巴伦娜
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/巴伦娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_aleisi={
+		name=阿蕾丝
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/阿蕾丝.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_aimili={
+		name=艾米莉
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/艾米莉.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	FAL_misite={
+		name=米丽特
+		portraits={
+			civilian={
+				large="gfx/leaders/FAL/米丽特.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}		

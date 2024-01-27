@@ -1,0 +1,401 @@
+add_namespace = lov
+
+#亚人暴动
+country_event = {
+	id = lov.1
+    picture = GFX_
+    title = lov.1.t 
+    desc = lov.1.d 
+	immediate = {
+		hidden_effect = {
+			RED = {
+				transfer_state = 357
+				}
+		}
+		
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = lov.1.a 
+		if = {
+			limit = {
+				has_country_flag = RED_1_degree_increase_stop
+			}
+			RED = { 
+				add_offsite_building = { type = arms_factory level = 2 }
+			}	
+		}
+		if = {
+			limit = {
+				has_country_flag = RED_2_degree_increase_stop
+			}
+			RED = { 
+			custom_effect_tooltip = RED_fascist_1_movement_tt
+			hidden_effect = {
+				load_oob = "RED-1" 
+			}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = RED_3_degree_increase_stop
+			}
+			RED = { 
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = MOB } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = MOB } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = MOB } add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = MOB } 
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = RED_4_degree_increase_stop
+			}
+			RED = { 
+				add_manpower = 5000
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = RED_5_degree_increase_stop
+			}
+			RED = { 
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = RED_6_degree_increase_stop
+			}
+			RED = { 
+				add_ideas = RED_ideas_1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { RED_seize_arms_prep = 1 }
+			}
+			RED = { 
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1000 producer = LOV } 	
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { RED_seize_arms_prep = 2 }
+			}
+			RED = { 
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } 
+			}
+			}
+		if = {
+			limit = {
+				check_variable = { RED_seize_arms_prep = 3 }
+			}
+			RED = { 
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = LOV } 	
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { RED_seize_arms_prep = 4 }
+			}
+			RED = { 
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = LOV } add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = LOV } add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = LOV } 
+			}
+		} 
+		
+            RED = { 
+				declare_war_on = { target = LOV type = annex_everything }
+				change_tag_from = ROOT
+				add_timed_idea = { idea = RED_ideas_2 days = 150 }
+				every_state = {
+					limit = { is_core_of = LOV }
+					add_core_of = ROOT
+				}
+			}
+			news_event = {
+				id = WORLD.1
+				hours = 12
+			}
+			
+				
+	}
+	  option = { 
+        name = lov.1.b  
+		news_event = {
+			id = WORLD.1
+			hours = 12
+		}
+	}
+    
+}
+#皇族起义
+country_event = {
+	id = lov.2
+    picture = GFX_
+    title = lov.2.t 
+    desc = lov.2.d 
+	immediate = {
+		ROA = {
+		transfer_state = 351
+		}
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = lov.2.a  
+            ROA = { change_tag_from = ROOT }
+			ROA = {
+			declare_war_on = { target = LOV type = annex_everything } 
+			set_country_flag = LOV_Royal_Revolt_degree_increase_stop
+			}
+	}
+	  option = { 
+        name = lov.2.b 
+		set_country_flag = LOV_Royal_Revolt_degree_increase_stop
+	}
+    
+}
+#贵族暗杀
+country_event = {
+	id = lov.3
+    picture = GFX_
+    title = lov.3.t 
+    desc = lov.3.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = lov.3.a  
+		
+			
+	}
+	option = { 
+        name = lov.3.b 
+		activate_mission = LOV_Royal_Revolt_degree_increase
+		set_country_flag = LOV_demihuman_uprising_degree_increase_stop
+	}
+    
+}
+country_event = {
+	id = lov.4
+    picture = GFX_
+    title = lov.4.t 
+    desc = lov.4.d 
+	immediate = {
+		hidden_effect = {
+			 if = {
+				limit = {
+					has_completed_focus = LOV_focus_18
+				}
+				LOR = {
+					declare_war_on = { target = LOV type = annex_everything }
+					transfer_state = 360
+					transfer_state = 365
+					transfer_state = 359
+					transfer_state = 367
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 366
+					transfer_state = 455
+					transfer_state = 369
+					transfer_state = 363
+					transfer_state = 362
+					transfer_state = 364
+					transfer_state = 358
+					transfer_state = 357
+					transfer_state = 356
+					transfer_state = 355
+				 }
+			} 
+			if = {
+				limit = {
+					has_completed_focus = LOV_focus_31
+				}
+				ROA = {
+					declare_war_on = { target = LOV type = annex_everything }
+					transfer_state = 360
+					transfer_state = 365
+					transfer_state = 359
+					transfer_state = 367
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 366
+					transfer_state = 455
+					transfer_state = 369
+					transfer_state = 363
+					transfer_state = 362
+					transfer_state = 364
+					transfer_state = 358
+					transfer_state = 357
+					transfer_state = 356
+					transfer_state = 355
+				 }
+			} 
+		}
+		
+    }
+	is_triggered_only = yes
+    option = { 
+        name = lov.4.a  
+		LOR = {
+			declare_war_on = { target = LOV type = annex_everything }
+		 }
+			
+	}
+	option = { 
+        name = lov.4.b 
+		LOR = { change_tag_from = ROOT }
+		LOR = {
+			declare_war_on = { target = LOV type = annex_everything }
+		 }
+	}
+    
+}
+ #???????
+country_event = {
+	id = lov.6
+    picture = GFX_
+    title = lov.6.t 
+    desc = lov.6.d 
+	is_triggered_only = yes
+    option = { 
+        name = lov.6.a  
+		set_country_flag = LOV_1_increase_stop
+
+			
+	}
+	option = { 
+        name = lov.6.b 
+		
+	}
+}
+country_event = {
+	id = lov.7
+    picture = GFX_
+    title = lov.7.t 
+    desc = lov.7.d 
+	is_triggered_only = yes
+    option = { 
+        name = lov.7.a  
+		
+			
+	}
+	option = { 
+        name = lov.7.b 
+		
+	}
+}
+country_event = {
+	id = lov.8
+    picture = GFX_
+    title = lov.8.t 
+    desc = lov.8.d 
+	is_triggered_only = yes
+    option = { 
+        name = lov.8.a  
+		hidden_effect = {
+			swap_ideas = {
+				add_idea = LOV_ideas_7
+				remove_idea = LOV_ideas_6
+			}
+		}
+		set_country_flag = RED_fascist_movement
+		custom_effect_tooltip = LOV_focus_1_emperor_tt
+		unlock_decision_category_tooltip = LOV_decision_category_2
+	}
+	option = { 
+        name = lov.8.b 
+		hidden_effect = {
+			swap_ideas = {
+				add_idea = LOV_ideas_7
+				remove_idea = LOV_ideas_6
+			}
+		}
+		custom_effect_tooltip = LOV_focus_1_emperor_tt
+		
+	}
+}
+country_event = {
+	id = lov.9
+    picture = GFX_
+    title = lov.9.t 
+    desc = lov.9.d 
+	is_triggered_only = yes
+    option = { 
+        name = lov.9.a 
+		set_country_flag = LOV_3_increase_stop
+		add_stability = 0.05
+	}
+	option = { 
+        name = lov.9.b 
+		set_country_flag = LOV_4_increase_stop
+		add_stability = 0.05
+	}
+}
+country_event = {
+	id = lov.10
+    picture = GFX_
+    title = lov.10.t 
+    desc = lov.10.d 
+	is_triggered_only = yes
+    option = { 
+        name = lov.10.a 
+		set_country_flag = LOV_2_increase_stop
+	}
+}
+#瓦洛庞事件
+country_event = {
+	id = lov.12
+	picture = GFX_
+	title = lov.12.t
+	desc = lov.12.d
+	is_triggered_only = yes
+	option = {
+		trigger = {
+			tag = LOV
+		}
+		name = lov.12.a
+	}
+	option = {
+		trigger = {
+			tag = MOB
+		}
+		name = lov.12.b
+	}
+}
+#洛维尼亚联合宣言
+news_event = {
+	id = lov.11
+	picture = GFX_
+	title = lov.11.t
+	desc = lov.11.d 
+	is_triggered_only = yes
+	major = yes
+	option = {
+		trigger = {
+			tag = LOV
+		}
+		name = lov.11.a
+		set_cosmetic_tag = mowangjun
+
+	}
+	option = {
+		name = lov.11.b
+	}
+}
+#???????
+news_event = {
+	id = lov.12
+	picture = GFX_
+	title = lov.12.t
+	desc = lov.12.d
+	trigger = {
+		date > 4634.3.3
+		has_completed_focus = LOV_focus_2
+	}
+	option = {
+		name = lov.12.a
+	}
+	option = {
+		name = lov.12.b
+	}
+}

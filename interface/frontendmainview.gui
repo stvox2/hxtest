@@ -1,0 +1,331 @@
+guiTypes = {
+
+	containerWindowType = {
+		name ="frontend_background" #前端背景
+		position = { x=0 y =0 }	
+		size = { 
+			width = 1920 
+			height = 1440 
+			min = { width = 100% height = 100% }
+			preserve_aspect_ratio = yes
+		}
+		Orientation = center
+		Origo = center
+		clipping = no 
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_frontend_bg"
+		}
+		
+	}
+
+	### MAIN MENU PANEL (upperleft)
+	containerWindowType = {
+		name  ="mainmenu_panel_upperleft" #主菜单面板左上角
+		position = { x=0 y =-200 }
+		show_position = { x=0 y =-1 }
+		animation_type = decelerated
+		animation_time = 1000
+		size = { width = 256 height = 768}
+		
+		iconType =
+		{
+			name ="frontend_game_logo"
+			spriteType = "GFX_frontend_game_logo"
+			position = { x= 20 y = 20 }
+		}
+		
+	}
+
+	#containerWindowType = {
+	#	name  ="frontend_alpha_stamp"
+	#	position = { x=100 y =-100  }
+	#	size = { width = 131 height = 132}
+	#	orientation = lower_left
+	#	origo = lower_left
+	#	
+	#	iconType =
+	#	{
+	#		name ="frontend_alpha_stamp"
+	#		spriteType = "GFX_alpha_stamp"
+	#		position = { x= 0 y = 20 }
+	#	}		
+	#	
+	#}	
+	
+	### MAIN MENU PANEL (upperright)
+	containerWindowType = {
+		name ="mainmenu_panel_upperright" #主菜单面板
+		position = { x=0 y =-1 }
+		show_position = { x=-256 y =-1 }
+		animation_type = decelerated
+		animation_time = 1000					
+		size = { width = 256 height = 768}
+		Orientation = upper_right
+
+		iconType =
+		{
+			name ="frontend_dev_logo"
+			spriteType = "GFX_frontend_dev_logo"
+			position = { x= 15 y = 15 }
+		}
+		
+		iconType =
+		{
+			name ="pdx_int_logo"
+			spriteType = "GFX_pdx_int_logo"
+			position = { x= 135 y = 15 }
+		}
+        ButtonType = {
+			name = "patreon_button" #友情赞助
+			position = { x= -1111111200 y = 100 }
+			spriteType = "GFX_patreon_button"
+			font = "hoi_36header"			
+			text = ""				
+			web_link = "https://jk22996055.icoc.vc/"
+		}		
+		
+	}		
+
+	### SINGLE PLAYER MENU
+	containerWindowType = {
+		name = "mainmenu_single_player" #主菜单单人游戏
+		position = { x=0 y =80}
+		size = { width = 800 height = 425 }
+		Orientation = CENTER
+		Origo = center	
+				
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window"
+		}
+		
+		ButtonType = {
+			name = "sp_continue_button"  #继续按钮
+			position = { x = 10 y = 10 }
+			quadTextureSprite ="GFX_continue"	
+			buttonText = "FE_CONTINUE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_left" #继续左标志
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 35 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_left_overlay" #继续留旗覆盖
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 35 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right" #继续右旗
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 205 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "sp_continue_flag_right_overlay" #继续标志右侧叠加
+			quadTextureSprite ="GFX_flag_small2_not_masked"
+			position = { x= 205 y = 22 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		ButtonType = {
+			name = "sp_new_button" #开始游戏
+			position = { x = 270 y = 10}
+			quadTextureSprite ="GFX_new_game"
+			buttonText = "FE_NEW"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "sp_load_button" #载入游戏
+			position = { x = 530 y = 10 }
+			quadTextureSprite ="GFX_load"
+			buttonText = "MENU_BAR_LOAD"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "sp_tutorial_button" #游戏教程
+			position = {  x = 10 y = 210 }
+			quadTextureSprite ="GFX_mainmenu_jiaocheng"
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "hoi_36header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip ="TT_TUTORIALBTN"
+		}
+		
+		
+		ButtonType = {
+			name = "sp_back_button" #后退按钮
+			position = { x = 400 y = 210 }
+			quadTextureSprite ="GFX_back_btn2"
+			buttonText = "BACK"
+			buttonFont = "hoi_24header"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
+	}
+
+	### MAIN MENU PANEL (bottom)
+	containerWindowType = {
+		name ="mainmenu_panel_bottom" #主菜单面板底部
+		position = { x=0 y =80}
+		size = { width = 800 height = 460}
+		Orientation = CENTER
+		Origo = center		
+				
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window"
+		}
+			
+		ButtonType = {
+			name = "single_player_button" #单人游戏按钮
+			position = { x = 10 y = 10 }
+			quadTextureSprite ="GFX_mainmenu_button"
+			font = "hoi_24header"			
+			text = "FE_SINGLE_PLAYER"				
+			clicksound = click_default			
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "multi_player_button" #多人游戏按钮
+			position = { x = 400 y = 10}
+			quadTextureSprite ="GFX_multiplayer_background"
+			font = "hoi_24header"			
+			text = "FE_MULTI_PLAYER"			
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		instantTextBoxType = {
+
+			name ="version_label" #版本标签
+			position = { x = 200 y = 380 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
+		}
+		
+		
+		ButtonType = {
+			name = "settings_button" #设置按钮
+			position = { x = 10 y = 210 }
+			quadTextureSprite ="GFX_options"	
+			buttonText = "OPTIONS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		buttonType = { #生涯档案
+			name = "career_profile_button"
+			position = { x = 260 y = -1 }
+			quadTextureSprite ="GFX_main_lobby_button"
+			buttonText = "MENU_BAR_CAREER_PROFILE"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+
+		ButtonType = {
+			name = "credits_button" #信用按钮
+			position = {  x = 270 y = 210 }
+			quadTextureSprite ="GFX_credits"	
+			buttonText = "FE_CREDITS"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "nudge_button" #轻推按钮
+			position = { x = 10 y = 406 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Nudge!"
+			buttonFont = "hoi_24header"
+		}
+		
+
+		ButtonType = {
+			name = "exit_button" #退出按钮
+			position = { x = 530 y = 210 }
+			quadTextureSprite ="GFX_quit"
+			font = "hoi_24header"			
+			text = "FE_EXIT"			
+			clicksound = click_default
+			oversound = ui_menu_over
+			
+		}
+		
+		## facebook etc.
+		ButtonType = {
+			name = "homepage_button" #主页按钮（贴吧）
+			position = { x = 11111300 y = 410 }
+			quadTextureSprite ="GFX_homepage_button"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+			web_link = "https://space.bilibili.com/1780479263?spm_id_from=333.788.0.0"
+		}
+		ButtonType = {
+			name = "forum_button" #论坛按钮 （52论坛）
+			position = { x = 11111350 y = 410 }
+			quadTextureSprite ="GFX_forum_button"
+			clicksound = click_default
+			pdx_tooltip = "MENU_FORUM"
+			web_link = "http://bbs.52pcgame.net/forum.php?mod=forumdisplay&fid=110"
+		}
+		ButtonType = {
+			name = "facebook_button" #脸书按钮
+			position = { x = 111400 y = 410 }
+			quadTextureSprite ="facebook"
+			clicksound = click_default
+			pdx_tooltip = "MENU_FACEBOOK"
+			web_link = "https://www.facebook.com/Heartsofiron"
+		}			
+		
+		ButtonType = {
+			name = "twitter_button" #推特按钮
+			position = { x = 1111450 y = 410 }
+			quadTextureSprite ="twitter"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_TWITTER"
+			web_link = "https://twitter.com/hoi_game"
+		}
+		
+		ButtonType = {
+			name = "privacy_policy_button" #隐私政策按钮
+			position = { x = 1111500 y = 410 }
+			quadTextureSprite ="privacy"
+			#clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
+		}
+	}
+}

@@ -1,0 +1,132 @@
+add_namespace = todld
+#德颂拉特大陆介绍
+country_event = {
+	id = todld.1
+	title = todld.1.t
+	desc = todld.1.d
+	picture = GFX_NEA_acknowledgement
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = nea_welcome
+	}
+	
+	option = {
+		name = todld.1.a
+		ROOT = {
+			country_event = { id = todld.2 }
+		}
+	}
+	option = {
+		name = todld.1.b
+      
+	}
+
+}
+country_event = {
+	id = todld.2
+	title = todld.2.t
+	desc = todld.2.d
+	picture = GFX_NEA_acknowledgement
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = nea_welcome
+	}
+	
+	option = {
+		name = todld.2.a
+		ROOT = {
+			country_event = { id = todld.3 }
+		}
+	}
+	option = {
+		name = todld.2.b
+		ROOT = {
+			country_event = { id = todld.4 }
+		}
+	}
+	option = {
+		name = todld.2.c
+        
+	}
+
+}
+country_event = {
+	id = todld.3
+	title = todld.3.t
+	desc = todld.3.d
+	picture = GFX_NEA_acknowledgement
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = nea_welcome
+	}
+	
+	option = {
+		name = todld.3.a
+		ROOT = {
+			country_event = { id = todld.4 }
+		}
+	}
+	option = {
+		name = todld.1.b
+      
+	}
+
+}
+country_event = {
+	id = todld.4
+	title = todld.4.t
+	desc = todld.4.d
+	picture = GFX_NEA_acknowledgement
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = nea_welcome
+	}
+	
+	option = {
+		name = todld.4.a
+		ROOT = {
+			country_event = { id = todld.5 }
+		}
+	}
+	option = {
+		name = todld.1.b
+      
+	}
+
+}
+country_event = {
+	id = todld.5
+	title = todld.5.t
+	desc = todld.5.d
+	picture = GFX_NEA_acknowledgement
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = nea_welcome
+	}
+
+	option = {
+		name = todld.1.b
+      
+	}
+
+}

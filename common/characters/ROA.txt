@@ -1,0 +1,116 @@
+characters={ 
+	ROA_sidiyou={
+		name=斯蒂优
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/斯蒂优.dds"
+			}
+			army = {   
+				large="gfx/leaders/ROA/斯蒂优.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		advisor={	
+		    desc = "RED_8_APDF_DES"
+			slot = high_command
+			idea_token = 斯蒂优
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_regrouping_3 
+			}
+			cost = 100
+        }
+		field_marshal = {
+			legacy_id = 1
+			traits = { guerilla_fighter infantry_officer camouflage_expert infantry_leader expert_delegator organisational_leader inspirational_leader }
+			skill = 7
+			attack_skill = 7
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 7
+		}
+	}
+    ROA_buerliya={
+		name=布尔莉娅
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/布尔莉娅.dds"
+			}
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ROA_bulalita={
+		name=布拉莉塔
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/布拉莉塔.dds"
+			}
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ROA_ailisi={
+		name=爱丽丝
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/爱丽丝.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ROA_bulanershiqishi={
+		name=布兰二十七世
+		portraits={
+			civilian={
+				large="gfx/leaders/ROA/布兰二十七世.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

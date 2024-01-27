@@ -1,0 +1,38 @@
+FAL_cj_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	    tag = FAL
+	}
+	available = {
+	    has_completed_focus = FAL_falanchangjian
+	}
+	priority = 1
+}
+FAL_js_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	    tag = FAL
+	}
+	priority = 2
+}
+FAL_lhhl_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	    tag = FAL
+	}
+	priority = 2
+}
+FAL_mmll_decision_category = {
+	icon = generic_prospect_for_resources
+	available = {
+	    has_completed_focus = FAL_mimikongzhi
+	}
+	priority = 2
+}	
+FAL_2_decision_category = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	    tag = FAL
+	}
+	priority = 2
+}	

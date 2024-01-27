@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+
+        #瓦洛庞条约#
+        MOB_states_47 = {
+            removal_cost = -1
+            picture = generic_war_preparation
+            modifier = {
+				stability_factor = -0.05
+			    training_time_factor = 0.1
+				conscription = -0.005
+                custom_modifier_tooltip = LOV_ideas_3_tt
+			}
+        }
+         #战争赔款#
+         war_reparations = {
+            removal_cost = -1
+            picture = generic_economic_increase
+			cancel = {
+                has_idea = MOB_states_47
+				
+			}
+            modifier = {
+                
+             consumer_goods_factor = 0.1
+			}
+            
+        }
+		 #经济制约#
+         MOB_reparations = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            modifier = {
+             consumer_goods_factor = 0.01
+			 industrial_capacity_factory = -0.1 
+			 	production_factory_efficiency_gain_factor = -0.1 
+			}
+        }
+        MOB_1_reparations = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            modifier = {
+                production_speed_buildings_factor = 0.1
+                production_speed_arms_factory_factor = 0.1			
+                production_speed_industrial_complex_factor = 0.1
+                industrial_capacity_dockyard = 0.1
+			}
+        } 
+		MOB_ideas_1 = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            cancel = {
+				NOR = { has_capitulated = yes }
+			}
+            modifier = {
+             	army_attack_factor = 0.50
+	         army_defence_factor = 0.50
+			}
+        }
+        MOB_ideas_2 = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            cancel = {
+				NOR = { has_capitulated = yes }
+			}
+            modifier = {
+                experience_gain_army_factor = 0.10
+			}
+        }
+} 
+hidden_ideas = {
+ai_ideas_1 = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            modifier = {
+           ai_get_ally_desire_factor = -1000
+			}
+        }
+}
+}
+or = { has_war_with = LOV }

@@ -1,0 +1,41 @@
+add_namespace = sno
+
+country_event = {
+	id = sno.1
+    picture = GFX_
+    title = sno.1.t 
+    desc = sno.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = sno.1.a  
+            ORT = {
+            add_to_faction = SNO
+            }
+	}
+    
+}
+#军团的停战请求
+country_event = {
+    id = sno.2
+    title = sno.2.t
+    desc = sno.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = sno.2.a
+		ai_chance = { factor = 30 }
+        white_peace = LEG
+    }
+    option = {
+        name = sno.2.b
+		ai_chance = { factor = 70 }
+        LEG = { country_event = { id = leg.5 day = 1}}
+    }
+    option = {
+        name = sno.2.c
+		ai_chance = { factor = 30 }
+    }
+}

@@ -1,0 +1,37 @@
+add_namespace = roa
+
+#贵族希望达成停火
+country_event = {
+    id = ROA.1
+    picture = GFX_
+    title = roa.1.t
+    desc = roa.1.d
+    is_triggered_only = yes
+    option = {
+        name = roa.1.a
+        white_peace = LOV
+    }
+    option = {
+        name = roa.1.b
+        add_war_support = 0.05 
+    }
+}
+#贵族要求我们加入秩序协约
+country_event = {
+	id = roa.2
+	title = roa.2.t
+	desc = roa.2.d
+	is_triggered_only = yes
+	option = {
+		name = roa.2.a
+        LOV = {
+            add_to_faction = ROA
+        }
+        add_war_support = 0.05
+	}
+    option = {
+        name = roa.2.b
+        add_war_support = -0.05
+        add_stability = -0.05
+    }
+}

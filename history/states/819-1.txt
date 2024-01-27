@@ -1,0 +1,25 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = GOD
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		add_core_of = GOD
+
+	}
+
+	provinces={
+		922 2283 7015 7253 7504 9376 19167 19168 19197 19230 19292 19323 19342 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

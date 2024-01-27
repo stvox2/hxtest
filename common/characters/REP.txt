@@ -1,0 +1,68 @@
+characters={ 
+	REP_waertaya={
+		name=瓦尔塔娅
+		portraits={
+			civilian={
+				large="gfx/leaders/REP/瓦尔塔娅.dds"
+			}
+			army = {   
+				large="gfx/leaders/REP/瓦尔塔娅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		} 
+		country_leader={
+			traits = {  }
+			ideology= Fascism_ideology
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	REP_zuoyi={
+		name=佐伊
+		portraits={
+			civilian={
+				large="gfx/leaders/REP/佐伊.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	REP_beiliaiqie={
+		name=贝利艾切
+		portraits={
+			civilian={
+				large="gfx/leaders/REP/贝利艾切.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}

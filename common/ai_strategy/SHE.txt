@@ -1,0 +1,32 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+SHE_shenzhoudishi = {
+	enable = {
+		country_exists = DIV
+		num_of_factories > 120
+		has_army_manpower = { size > 1500000 }
+	}
+	abort = {
+        
+	}
+	abort_when_not_enabled = yes
+	SHE = {
+		ai_strategy = {
+			type = antagonize
+			id = DIV
+			value = 100
+		}
+	}
+}

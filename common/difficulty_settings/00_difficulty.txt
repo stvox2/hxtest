@@ -1,0 +1,57 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_teg"
+		modifier = diff_strong_ai_generic
+		countries = { MOB }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_ysk"
+		modifier = diff_strong_ai_generic
+		countries = { LOV }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_sca"
+		modifier = diff_strong_ai_generic
+		countries = { STA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_cir"
+		modifier = diff_strong_ai_generic
+		countries = { FAL }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_sei"
+		modifier = diff_strong_ai_generic
+		countries = { DIV ZHI WEI ONG NAN }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_nms"
+		modifier = diff_strong_ai_generic
+		countries = { HAS }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_kog"
+		modifier = diff_strong_ai_generic
+		countries = { LEG }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_sage"
+		modifier = diff_strong_ai_generic
+		countries = { TZY }
+		multiplier = 2.0
+	}
+}

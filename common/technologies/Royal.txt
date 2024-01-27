@@ -1,0 +1,95 @@
+technologies = {
+
+	staff_Ranger_Royal = {
+		
+		enable_subunits = {
+			Ranger_Royal
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_Royal = {
+		
+		enable_subunits = {
+			Royal
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_kingdom = {
+		
+		enable_subunits = {
+			kingdomz
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_Magi = {
+		
+		enable_subunits = {
+			Magic_Girl_Guards
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_hunter = {
+		
+		enable_subunits = {
+			Fast_hunter
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_samurai = {
+		
+		enable_subunits = {
+			Elite_samurai
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	staff_knight = {
+		
+		enable_subunits = {
+			Elite_knight
+		}
+
+		research_cost = 0.8
+		start_year = 4635
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

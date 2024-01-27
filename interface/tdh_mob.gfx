@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_report_event_generic_mob_1"
+		texturefile = "gfx/event_pictures/report_event_generic_mob_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MOB_chuandaofangzi"
+		texturefile = "gfx/interface/ideas/MOB_chuandaofangzi.dds"
+	}
+}

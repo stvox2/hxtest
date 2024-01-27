@@ -1,0 +1,61 @@
+ideas = {
+
+	country = {
+        
+        #抵抗到底#
+        OTR_flange = {
+            removal_cost = -1
+            picture = FRA_scw_intervention_nationalists_focus
+            modifier = {
+                army_speed_factor = 0.3
+                army_core_attack_factor = 0.3
+                army_core_defence_factor = 0.3
+			}
+        }
+         #我们团结一致#
+         OTR_monthly = {
+            removal_cost = -1
+            picture = generic_economic_increase
+            modifier = {
+                monthly_population = 0.2
+                industrial_capacity_factory = 0.2
+			}
+        }
+        #亚人民兵
+        ORT_militia = {
+            removal_cost = -1 
+            modifier = {
+                conscription = 0.1
+                army_attack_factor = -0.25
+                army_defence_factor = -0.25
+            }
+        }
+    }
+    #坦克制造商
+    tank_manufacturer = {
+    OTR_morozov_design_bureau = {
+        name = OTR_heavy_tank_manufacturer
+
+        picture = morozov_design_bureau
+        equipment_bonus = {
+            armor = {
+                ap_attack = 0.10
+                maximum_speed = 0.10
+            }
+        }
+        
+        research_bonus = {
+            armor = 0.30
+        }
+        available = {
+            has_completed_focus = SNO_7
+        }
+        traits = {  }
+
+        modifier = {
+            
+        }
+    }
+    
+}
+}

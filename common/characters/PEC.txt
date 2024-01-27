@@ -1,0 +1,31 @@
+characters={ 
+	PEC_zhennimajuewang={
+		name=珍妮玛珏望
+		portraits={
+			civilian={
+				large="gfx/leaders/PEC/珍妮玛珏望.dds"
+			}
+			army = {   
+				large="gfx/leaders/PEC/珍妮玛珏望.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			ideology= Fascism_ideology
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = { 
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

@@ -1,0 +1,336 @@
+ideas = {
+
+	country = {
+		LOV_ideas_16 = {
+
+			picture = LOV_ideas_16
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+			}
+
+		}
+		LOV_ideas_19 = {
+
+			picture = LOV_ideas_19
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.1
+			}
+
+		}
+		LOV_ideas_13 = {
+
+			picture = LOV_ideas_13
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_bunker_factor = 0.05
+			}
+		}
+		LOV_ideas_14 = {
+
+			picture = LOV_ideas_14
+			
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		LOV_ideas_1 = {
+			name = nea_idea_LOV_niuqudesanminzhuyi
+			
+			picture = LOV_ideas_1
+		
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = -0.3
+				industrial_capacity_factory= -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		LOV_ideas_9 = {
+			name = nea_idea_LOV_niuqudesanminzhuyi
+			
+			picture = LOV_ideas_9
+		
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.04
+				stability_factor = -0.20
+				industrial_capacity_factory= -0.1
+				consumer_goods_factor = 0.04
+			}
+		}
+		LOV_ideas_10 = {
+			name = nea_idea_LOV_niuqudesanminzhuyi
+			
+			picture = LOV_ideas_9
+		
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.03
+				stability_factor = -0.15
+				industrial_capacity_factory= -0.1
+				consumer_goods_factor = 0.03
+			}
+		}
+		LOV_ideas_11 = {
+			name = nea_idea_LOV_niuqudesanminzhuyi
+			
+			picture = LOV_ideas_9
+		
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.02
+				stability_factor = -0.1
+				industrial_capacity_factory= -0.1
+				consumer_goods_factor = 0.02
+			}
+		}
+		LOV_ideas_12 = {
+			name = nea_idea_LOV_niuqudesanminzhuyi
+			
+			picture = LOV_ideas_9
+		
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.01
+				stability_factor = -0.05
+				industrial_capacity_factory= -0.05
+				consumer_goods_factor = 0.01
+			}
+		}
+		LOV_ideas_17 = {
+
+			picture = LOV_ideas_17
+
+			removal_cost = -1
+			
+			modifier = {
+				resistance_decay = 0.25
+				compliance_growth = 0.25	
+			}
+
+		}
+		LOV_ideas_18 = {
+
+			name = LOV_ideas_17
+
+			removal_cost = -1
+			
+			modifier = {
+				resistance_decay = 0.25
+				compliance_growth = 0.25
+				compliance_growth = 0.25
+				stability_factor = 0.05
+				intelligence_agency_defense = 1
+			}
+
+		}
+		#大反攻
+		LOV_ideas_20 = {
+			removal_cost = -1
+			targeted_modifier = {
+				tag = MOB
+				attack_bonus_against = 0.2
+		        defense_bonus_against = 0.2
+			}
+		}
+		#十三恶魔
+		LOV_ideas_21 = {
+			removal_cost = -1
+			modifier = {
+			  justify_war_goal_time = 0.25
+			  surrender_limit = 0.25
+			}
+		}
+		LOV_ideas_22 = {
+			removal_cost = -1
+			modifier = {
+			  justify_war_goal_time = 0.25
+			  surrender_limit = 0.25
+              army_org_factor = 0.1
+			  army_morale_factor = 0.1
+			}
+		}
+		LOV_ideas_23 = {
+			removal_cost = -1
+			modifier = {		
+			  justify_war_goal_time = 0.25
+			  surrender_limit = 0.25
+              army_org_factor = 0.1
+			  army_morale_factor = 0.1
+			  conscription_factor = 0.25
+			  army_infantry_attack_factor = 0.1
+			  army_infantry_defence_factor = 0.1
+			}
+		}
+		#帝国的余辉
+		LOV_ideas_24 = {
+			removal_cost = -1
+			modifier = {
+				mobilization_laws_cost_factor = 0.25
+				war_support_factor = 0.1
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.25
+			}
+		}
+		#腐败的帝国银行
+		LOV_ideas_25 = {
+			removal_cost = -1
+			modifier = {
+				trade_laws_cost_factor  = -0.25
+				economy_cost_factor = -0.25
+				stability_factor = -0.1
+			}
+		}
+		#被支配的内阁
+		LOV_ideas_26 = {
+			removal_cost = -1
+			modifier = {
+				mobilization_laws_cost_factor = 0.25
+				trade_laws_cost_factor  = 0.25
+				economy_cost_factor = 0.25
+				political_advisor_cost_factor = 0.25
+			}
+		}
+		#整合贵族工厂
+		LOV_ideas_27 = {
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		#取缔亚人人权
+		LOV_ideas_28 = {
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		LOV_Star_war = {
+
+			picture = LOV_Star_war
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				army_speed_factor = 0.15
+			}
+		}
+		LOV_ideas_2 = {
+
+			picture = LOV_ideas_2
+
+			removal_cost = -1
+			
+			modifier = {
+				custom_modifier_tooltip = LOV_ideas_2_desc_tt
+			}
+
+		}
+		LOV_ideas_3 = {
+
+			picture = LOV_ideas_3
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.005
+				command_power_gain_mult = -0.1
+				custom_modifier_tooltip = LOV_ideas_3_tt
+			}
+
+		}
+		LOV_ideas_4 = {
+
+			picture = LOV_ideas_4
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				
+			}
+
+		}
+		LOV_ideas_5 = {
+
+			picture = LOV_ideas_5
+
+			removal_cost = -1
+			
+			modifier = {
+				custom_modifier_tooltip = LOV_ideas_5_desc_tt
+			}
+
+		}
+		LOV_ideas_6 = {
+
+			picture = LOV_ideas_6
+
+			removal_cost = -1
+			
+			modifier = {
+				LOV_ideas_6_desc_tt
+			}
+
+		}
+		LOV_ideas_7 = {
+
+			picture = LOV_ideas_7
+
+			removal_cost = -1
+			
+			modifier = {
+				LOV_ideas_7_desc_tt
+			}
+
+		}
+		LOV_ideas_8 = {
+
+			picture = LOV_ideas_8
+
+			removal_cost = -1
+			
+			modifier = {
+				local_building_slots_factor = 0.1
+			}
+
+		}
+		LOV_ideas_15 = {
+
+			picture = LOV_ideas_15
+
+			removal_cost = -1
+			
+			modifier = {
+				command_power_gain_mult = 0.2
+				experience_gain_army_unit_factor = 0.25
+			}
+
+		}
+		
+		
+    }
+}   

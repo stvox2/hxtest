@@ -1,0 +1,20 @@
+add_namespace = cou
+
+country_event = {
+	id = cou.1
+	picture = GFX_
+	title = cou.1.t
+	desc = cou.1.d
+	is_triggered_only = yes
+	option = {
+		name = cou.1.a
+		declare_war_on = {
+			target = MOB
+			type = take_state
+		}
+		declare_war_on = {
+			target = WIM
+			type = take_state
+		}
+	}
+}

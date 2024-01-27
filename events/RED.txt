@@ -1,0 +1,55 @@
+add_namespace = red
+
+country_event = {
+	id = red.1
+    picture = GFX_
+    title = red.1.t 
+    desc = red.1.d 
+	immediate = {
+    }
+    is_triggered_only = yes
+	
+    option = { 
+        name = red.1.a  
+			
+	}
+	  option = { 
+        name = red.1.b  
+	}
+    
+}
+#贵族希望达成停火
+country_event = {
+    id = RED.2
+    picture = GFX_
+    title = red.2.t
+    desc = red.2.d
+    is_triggered_only = yes
+    option = {
+        name = red.2.a
+        white_peace = LOV
+    }
+    option = {
+        name = red.2.b
+        add_war_support = 0.05
+    }
+}
+#贵族希望我们遵循洛维尼亚联合宣言
+country_event = {
+	id = red.3
+	title = red.3.t
+	desc = red.3.d
+	is_triggered_only = yes
+	option = {
+		name = red.3.a
+        LOV = {
+            add_to_faction = RED
+        }
+        add_war_support = 0.05
+	}
+    option = {
+        name = red.3.b
+        add_war_support = -0.05
+        add_stability = -0.05
+    }
+}

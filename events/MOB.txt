@@ -1,0 +1,165 @@
+﻿add_namespace = mob
+country_event = {
+	id = mob.1
+    picture = GFX_
+    title = mob.1.t 
+    desc = mob.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = mob.1.a  
+            ORT = {
+            add_to_faction = MOO
+            }
+	}
+    
+}
+#瓜分斯塔?
+country_event = {
+	id = mob.3
+    picture = GFX_
+    title = mob.3.t 
+    desc = mob.3.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = mob.3.a  
+		ountry_event = { days = 15  id = mob.4 }
+		ai_chance = { factor = 90 }
+	}
+	option = { 
+        name = mob.3.c  
+		ai_chance = { factor = 10 }
+            
+	}
+}
+#瓜分内容
+news_event = {
+	id = mob.4
+    picture = GFX_report_event_generic_mob_1
+    title = mob.4.t 
+    desc = mob.4.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = mob.4.a  
+		ai_chance = { factor = 90 }
+		PEC = {
+			transfer_state = 428
+			transfer_state = 429
+			transfer_state = 430
+			transfer_state = 431
+			transfer_state = 314
+		 }
+		   
+		 NEW = {
+			transfer_state = 443
+			transfer_state = 444
+			transfer_state = 445
+			transfer_state = 446
+			transfer_state = 447
+			transfer_state = 448
+			transfer_state = 449
+			transfer_state = 450
+			transfer_state = 451
+			transfer_state = 452
+			transfer_state = 453
+			transfer_state = 454
+			transfer_state = 45
+		  }  
+		MOB = {
+			transfer_state = 432
+            transfer_state = 433
+            transfer_state = 434
+            transfer_state = 435
+            transfer_state = 436
+            transfer_state = 437
+            transfer_state = 438
+            transfer_state = 439
+			  }		
+	LOV = {
+	      transfer_state = 440
+          transfer_state = 441
+		  transfer_state = 442
+		  transfer_state = 443
+		  transfer_state = 444
+		  transfer_state = 445
+		  transfer_state = 446
+		  transfer_state = 447
+		  transfer_state = 448
+		  transfer_state = 449
+			transfer_state = 450
+			transfer_state = 451
+			transfer_state = 452
+			transfer_state = 453
+			transfer_state = 454
+			transfer_state = 45
+        }
+}
+
+	option = { 
+        name = mob.4.c 
+		ai_chance = { factor = 10 }
+    
+	}
+		 
+}
+ #伊卡洛的陷落 
+news_event = {
+	id = mob.2
+	title = mob.2.t
+	desc = mob.2.d
+	picture = GFX_news_event_germany_victory
+	
+	major = yes
+	
+	trigger = {
+		439 = { is_controlled_by = MOB }
+		439 = { is_owned_by = STA }
+		MOB = { has_war_with = STA }
+		NOT = { has_global_flag = fall_of_warsaw_ger }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_warsaw_ger
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = mob.2.a
+		trigger = {
+			NOT = {
+				TAG = LOV
+				TAG = STA
+				TAG = MOB
+			}
+		}
+	}
+	option = {
+		name = mob.2.b
+		trigger = { TAG = MOB }
+	}
+	option = {
+		name = mob.2.c
+		trigger = { TAG = STA }
+	}
+	option = {
+		name = mob.2.z
+		trigger = { TAG = LOV }
+		declare_war_on = {
+			type = annex_everything
+			target = STA
+		}
+		declare_war_on = { target = STA type = take_state }
+	}
+	option = {
+		name = mob.2.v
+		trigger = { TAG = LOV }
+	}
+}

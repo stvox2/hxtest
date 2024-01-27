@@ -1,0 +1,291 @@
+division_template = {
+	name = "亚人自卫队"			
+		division_names_group = ORT_INF_01 
+		regiments = { 
+			kingdomz = { x = 0 y = 0 }
+			kingdomz = { x = 0 y = 1 }
+			kingdomz = { x = 0 y = 2 }
+			kingdomz = { x = 1 y = 0 }
+			kingdomz = { x = 1 y = 1 }
+			kingdomz = { x = 1 y = 2 }
+			kingdomz = { x = 2 y = 0 }
+			kingdomz = { x = 2 y = 0 }
+			kingdomz = { x = 2 y = 0 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+		}	
+	}
+division_template = {
+	name = "民兵"			
+		division_names_group = SNO_INF_02 
+		regiments = { 
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+		}	
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11263
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11231
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1412
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9022
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11394
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 4924
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9359
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 448
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 5430
+		division_template = "民兵"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 11411
+		division_template = "民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5 
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 8630
+		division_template = "民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5 
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 11393
+		division_template = "民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5 
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1187
+		division_template = "民兵"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5 
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11231
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11231
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11231
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11263
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11263
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11263
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 11263
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11113
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11113
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.3
+	}
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 11184
+		division_template = "亚人自卫队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5 
+	}
+}

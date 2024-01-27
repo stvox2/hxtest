@@ -1,0 +1,79 @@
+ideas = {
+
+	country = {
+
+        #饱受摧残的法兰#
+        hurted_flange = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+				stability_factor = -0.3
+	            stability_weekly = -0.01
+	            war_support_factor = -0.3
+                war_support_weekly = -0.01		
+			}
+        }
+
+        #百废待兴的法兰#
+        remake_flange = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+				stability_factor = -0.1	
+                war_support_factor = -0.1
+                production_speed_buildings_factor = 0.05	
+			}
+        }
+
+        #魔法少女的军队#
+        magicgirls_army = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+				army_org_factor = 3
+                army_morale_factor = 3
+                breakthrough_factor = 3
+                army_attack_factor = 3
+	            army_defence_factor = 3
+	            army_speed_factor = 3
+                conscription_factor = -0.9
+			}
+        }
+
+        #岌岌可危的灵魂熔炉#
+        dangerous_soul = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+				army_core_attack_factor = 0.1
+	            army_core_defence_factor = 0.1
+                consumer_goods_factor = -0.1
+                production_factory_max_efficiency_factor = 0.05
+	            production_factory_efficiency_gain_factor = 0.05
+			}
+        }
+
+        #魔法研究传统#
+        magic_research = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+	            research_speed_factor = 0.1
+			}
+        }
+
+        #经济形势分析#
+        fenxi_jingji = {
+            removal_cost = -1
+            picture = king_edward
+            modifier = {
+                political_power_factor = 0.05
+				trade_laws_cost_factor  = -0.1
+	            economy_cost_factor = -0.1            
+	            materiel_manufacturer_cost_factor = -0.1
+	            industrial_concern_cost_factor = -0.1		
+			}
+        
+    }
+}
+}

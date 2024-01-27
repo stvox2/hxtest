@@ -1,0 +1,69 @@
+characters={ 
+	ANY_qingji={
+		name=青姬
+		portraits={
+			civilian={
+				large="gfx/leaders/ANY/青姬.dds"
+			}
+			army = {   
+				large="gfx/leaders/ANY/青姬.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			ideology= despotism 
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 5
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ANY_mieyazi={
+		name=咩亚子
+		portraits={
+			civilian={
+				large="gfx/leaders/ANY/咩亚子.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 6
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ANY_xiaodie={
+		name=咲蝶
+		portraits={
+			civilian={
+				large="gfx/leaders/ANY/咲蝶.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 7
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}	

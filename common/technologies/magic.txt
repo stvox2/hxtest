@@ -1,0 +1,1091 @@
+technologies = {
+    magic_technologies_0 = {
+        research_cost = 1.5
+
+        start_year = 4618
+		
+        folder = {
+			name = magic_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			magic
+		}
+        ai_will_do = {
+			factor = 2
+		}
+		enable_subunits = {
+			
+			
+			
+		}
+        path = {
+			leads_to_tech = magic_technology_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = magic_industrial_0
+			research_cost_coeff = 1
+		}
+    }
+	
+	magic_industrial_0 = {
+		research_cost = 0.8
+
+		start_year = 4634
+
+		folder = {
+			name = magic_folder
+			position = { x = -6 y = 2 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_industrial_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = magic_material_0
+			research_cost_coeff = 1
+		}
+	}
+
+	magic_industrial_1 = {
+		research_cost = 0.8
+
+		start_year = 4635
+
+		folder = {
+			name = magic_folder
+			position = { x = -10 y = 4 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	magic_material_0 = {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = -5 y = 6 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_material_1
+		}
+	}
+	
+	magic_material_1 = {
+		research_cost = 1
+
+		start_year = 4637
+
+		folder = {
+			name = magic_folder
+			position = { x = -5 y = 8 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_material_2
+		}
+		path = {
+			leads_to_tech = magic_craft_0
+		}
+	}
+
+	magic_craft_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = -8 y = 10 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_oil_0
+		}
+
+		path = {
+			leads_to_tech = magic_craft_1
+		}
+	}
+
+	magic_oil_0 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = -8 y = 12 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	magic_craft_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = -5 y = 12 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_consciousness_2
+		}
+	}
+
+	magic_material_2 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = -3 y = 10 }
+		}
+
+		categories = {		
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_consciousness_1
+		}
+	}
+	
+	magic_technology_1 = {
+		research_cost = 0.5
+		
+		start_year = 4634
+
+		folder = {
+			name = magic_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_physic_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = magic_metaphysics_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = magic_biological_0
+			research_cost_coeff = 1
+		}
+	}
+
+	magic_physic_0 = {
+		research_cost = 1
+
+		start_year = 4635
+
+		folder = {
+			name = magic_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_field_0
+			research_cost_coeff = 1
+		}
+	}
+
+	magic_field_0 = {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_field_1
+		}
+	}
+
+	magic_field_1 = {
+		research_cost = 1
+
+		start_year = 4637
+
+		folder = {
+			name = magic_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_field_2
+		}
+	}
+
+	magic_field_2 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_consciousness_1
+		}
+	}
+
+	magic_metaphysics_0 = {
+		research_cost = 1
+
+		start_year = 4635
+
+		folder = {
+			name = magic_folder
+			position = { x = 6 y = 4 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_subject_0a
+		}
+
+		path = {
+			leads_to_tech = magic_subject_0b
+		}
+
+		path = {
+			leads_to_tech = magic_education_0
+		}
+	}
+
+	magic_education_0 = {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = 3 y = 6 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	magic_subject_0a = {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = 8 y = 6 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+		
+		path = {
+			leads_to_tech = magic_subject_1
+		}
+	}
+
+	magic_subject_0b = {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = 10 y = 6 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_subject_1
+		}
+	}
+
+	magic_subject_1 = {
+		research_cost = 1
+
+		start_year = 4637
+
+		folder = {
+			name = magic_folder
+			position = { x = 9 y = 8 }
+		}
+		
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_subject_2
+		}
+		path = {
+			leads_to_tech = magic_consciousness_0
+		}
+	}
+
+	magic_consciousness_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 4 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_consciousness_1
+		}
+	}
+
+	magic_consciousness_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 2 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_consciousness_2
+		}
+	}
+
+	magic_consciousness_2 = {
+		research_cost = 1
+
+		start_year = 4640
+
+		folder = {
+			name = magic_folder
+			position = { x = 2 y = 14 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	magic_subject_2 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 9 y = 10 }
+		}
+		
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_subject_3x
+		}
+		path = {
+			leads_to_tech = magic_subject_3y
+		}
+	}
+
+	magic_subject_3x = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}	
+
+		path = {
+			leads_to_tech = magic_consciousness_2
+		}
+	}
+
+	magic_subject_3y = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 9 y = 12 }
+		}
+		
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}	
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+
+	magic_biological_0 = {
+		research_cost = 1
+
+		start_year = 4635
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 4 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_1
+		}
+	}
+
+	magic_biological_1= {
+		research_cost = 1
+
+		start_year = 4636
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 6 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_2
+		}
+	}
+
+	magic_biological_2 = {
+		research_cost = 1
+
+		start_year = 4637
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 8 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_humanity_0
+		}
+		path = {
+			leads_to_tech = magic_hen_0
+		}
+		path = {
+			leads_to_tech = magic_boar_0
+		}
+		path = {
+			leads_to_tech = magic_cow_0
+		}
+		path = {
+			leads_to_tech = magic_goat_0
+		}
+	}
+
+	magic_humanity_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0
+				has_tech = magic_hen_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_boar_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_cow_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_goat_0
+			}
+		}
+
+		path = {
+			leads_to_tech = magic_humanity_1
+		}
+
+		XOR = {
+			magic_hen_0
+		}
+		XOR = {
+			magic_boar_0
+		}
+		XOR = {
+			magic_cow_0
+		}
+		XOR = {
+			magic_goat_0
+		}
+	}
+
+	magic_humanity_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+
+	magic_hen_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 16 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0
+				has_tech = magic_humanity_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_boar_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_cow_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_goat_0
+			}
+		}
+
+		path = {
+			leads_to_tech = magic_hen_1
+		}
+
+		XOR = {
+			magic_humanity_0
+		}
+		XOR = {
+			magic_boar_0
+		}
+		XOR = {
+			magic_cow_0
+		}
+		XOR = {
+			magic_goat_0
+		}
+	}
+
+	magic_hen_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 16 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+	
+	magic_boar_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 20 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0
+				has_tech = magic_humanity_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_hen_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_cow_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_goat_0
+			}
+		}
+
+		path = {
+			leads_to_tech = magic_boar_1
+		}
+
+		XOR = {
+			magic_humanity_0
+		}
+		XOR = {
+			magic_hen_0
+		}
+		XOR = {
+			magic_cow_0
+		}
+		XOR = {
+			magic_goat_0
+		}
+	}
+
+	magic_boar_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 20 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+
+	magic_cow_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 24 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0
+				has_tech = magic_humanity_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_hen_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_boar_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_goat_0
+			}
+		}
+
+		path = {
+			leads_to_tech = magic_cow_1
+		}
+
+		XOR = {
+			magic_humanity_0
+		}
+		XOR = {
+			magic_hen_0
+		}
+		XOR = {
+			magic_boar_0
+		}
+		XOR = {
+			magic_goat_0
+		}
+	}
+
+	magic_cow_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 24 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+
+	magic_goat_0 = {
+		research_cost = 1
+
+		start_year = 4638
+
+		folder = {
+			name = magic_folder
+			position = { x = 28 y = 10 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+
+			modifier = {
+				factor = 0
+				has_tech = magic_humanity_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_hen_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_boar_0
+			}
+			modifier = {
+				factor = 0
+				has_tech = magic_cow_0
+			}
+		}
+
+		path = {
+			leads_to_tech = magic_goat_1
+		}
+
+		XOR = {
+			magic_humanity_0
+		}
+		XOR = {
+			magic_hen_0
+		}
+		XOR = {
+			magic_boar_0
+		}
+		XOR = {
+			magic_cow_0
+		}
+	}
+
+	magic_goat_1 = {
+		research_cost = 1
+
+		start_year = 4639
+
+		folder = {
+			name = magic_folder
+			position = { x = 28 y = 12 }
+		}
+
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = magic_biological_product_0
+		}
+	}
+	
+	magic_biological_product_0 = {
+		research_cost = 1
+
+		start_year = 4640
+
+		folder = {
+			name = magic_folder
+			position = { x = 12 y = 14 }
+		}
+		
+		categories = {
+			magic
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		dependencies = {
+			magic_subject_3y = 1
+		}
+	}
+}

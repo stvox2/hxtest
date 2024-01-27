@@ -1,0 +1,40 @@
+add_namespace = ort
+country_event = {
+	id = ort.1
+    picture = GFX_
+    title = ort.1.t 
+    desc = ort.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = ort.1.a  
+			create_faction = FSOce
+            FRO = {country_event = { id = fro.1 }}
+			SNO = {country_event = { id = sno.1 }}
+            MOO = {country_event = { id = moo.1 }}
+            MIC = {country_event = { id = mic.1 }}
+            EIN = {country_event = { id = ein.1 }}
+	}
+    
+}
+#4633年的冬天
+country_event = {
+    id = ort.2
+    title = ort.2.t
+    desc =ort.2.d
+    is_triggered_only = yes
+    option = {
+        name = ort.2.a
+    }
+}
+#冰雪之都的今日新闻
+country_event = {
+    id = ort_6
+    title = ort.6.t
+    desc = ort.6.d
+    is_triggered_only = yes
+    option = {
+        name = ort.6.d
+    }
+}

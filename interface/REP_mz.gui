@@ -1,0 +1,110 @@
+guiTypes = {
+	containerWindowType = {
+		name = "REP_mz_gui"
+		position = { x = -500 y = -300 }
+		Orientation = center
+		size = { width = 1000 height = 600} 
+		background = {
+			name = "REP_gui_Background" 
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_1"
+			position = { x =10  y = 10 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_1"
+			pdx_tooltip = "REP_choose_1" 
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_2"
+			position = { x =30  y = 85 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_2"
+			pdx_tooltip = "REP_choose_2"      
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_3"
+			position = { x =125  y = 69 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_3"
+			pdx_tooltip = "REP_choose_3"      
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_4"
+			position = { x =91   y = 131 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_4"
+			pdx_tooltip = "REP_choose_4"      
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_5"
+			position = { x =165  y = 168 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_5"
+			pdx_tooltip = "REP_choose_5"      
+		} 
+		buttonType = { #按钮窗口
+			name = "REP_mz_gui_state_6"
+			position = { x =85  y = 206 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_REP_mz_6"
+			pdx_tooltip = "REP_choose_6"      
+		} 
+		instantTextboxType = {
+			name = "REP_choose_state1"
+			position = { x = 30 y = 350 }#你的文本位置（相对于窗口）
+			font = "hoi_18b"
+			text = "rep.gui.choosesstate"
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		instantTextboxType = {
+			name = "REP_choose_state2"
+			position = { x = 160 y = 350 }#你的文本位置（相对于窗口）
+			font = "hoi_18b"
+			text = [?REP_state_chosen.GetName]
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		instantTextboxType = {
+			name = "REP_mz_resistance"
+			position = { x = 10 y = 385 }#你的文本位置（相对于窗口）
+			font = "hoi_36header"
+			text = "rep.gui.mz.resistance"
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		instantTextboxType = {
+			name = "REP_mz_support"
+			position = { x = 10 y = 417 }#你的文本位置（相对于窗口）
+			font = "hoi_36header"
+			text = "rep.gui.mz.support"
+			maxWidth = 200
+			maxHeight =80
+			format = left
+		}
+		containerWindowType = {
+			name = "REP_mz_state_bars"
+			position = { x = 140 y = 390 }
+			iconType = {
+				name = "REP_resistance_bar"
+				spriteType = "GFX_REP_mz_progressbar"
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "REP_mz_resistance_barframe"
+				spriteType = "GFX_REP_barframe"
+				position = { x = -3 y = -3 } 
+			}
+			iconType = {
+				name = "REP_support_bar"
+				spriteType = "GFX_REP_mz_progressbar2"
+				position = { x = 0 y = 32 }
+			} 
+			iconType = {
+				name = "REP_mz_support_barframe"
+				spriteType = "GFX_REP_barframe"
+				position = { x = -3 y = 29 } 
+			}
+		}
+
+		
+	}
+}

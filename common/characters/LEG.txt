@@ -1,0 +1,176 @@
+characters={ 
+	LEG_heersi={
+		name=荷尔丝
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/荷尔丝.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/荷尔丝.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		desc = ""
+		     traits = {  }
+			ideology= Centrism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_shashoutu={
+		name=杀手兔
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/杀手兔.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/杀手兔.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_shijunzhe={
+		name=弑君者
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/弑君者.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/弑君者.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_mafeilite={
+		name=玛菲丽特
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/玛菲丽特.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/玛菲丽特.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_linlan={
+		name=琳岚
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/琳岚.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/琳岚.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_nifu={
+		name=妮芙
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/妮芙.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/妮芙.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	LEG_dailan={
+		name=戴兰
+		portraits={
+			civilian={
+				large="gfx/leaders/LEG/戴兰.dds"
+			}
+			army = {   
+				large="gfx/leaders/LEG/戴兰.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}	

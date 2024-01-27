@@ -1,0 +1,177 @@
+﻿
+MOB_INF_01 = {
+	name = "帝国直辖军番号"
+
+	for_countries = { MOB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "帝国直辖军第 %d 师"
+
+	ordered = {
+		1 = { "帝国直辖军第 1 师" }
+		2 = { "帝国直辖军第 2 师" }
+		3 = { "帝国直辖军第 3 师" }
+		4 = { "帝国直辖军第 4 师" }
+		5 = { "帝国直辖军第 5 师" }
+		6 = { "帝国直辖军第 6 师" }
+		7 = { "帝国直辖军第 7 师" }
+		8 = { "帝国直辖军第 8 师" }
+		9 = { "帝国直辖军第 9 师" }
+		10 = { "帝国直辖军第 10 师" }
+		11 = { "帝国直辖军第 11 师" }
+		12 = { "帝国直辖军第 12 师" }
+		13 = { "帝国直辖军第 13 师" }
+		14 = { "帝国直辖军第 14 师" }
+		15 = { "帝国直辖军第 15 师" }
+		16 = { "帝国直辖军第 16 师" }
+		17 = { "帝国直辖军第 17 师" }
+		18 = { "帝国直辖军第 18 师" }
+		19 = { "帝国直辖军第 19 师" }
+		20 = { "帝国直辖军第 20 师" }
+		21 = { "帝国直辖军第 21 师" }
+		22 = { "帝国直辖军第 22 师" }
+		23 = { "帝国直辖军第 23 师" }
+		24 = { "帝国直辖军第 24 师" }
+		25 = { "帝国直辖军第 25 师" }
+		26 = { "帝国直辖军第 26 师" }
+		27 = { "帝国直辖军第 27 师" }
+		28 = { "帝国直辖军第 28 师" }
+		29 = { "帝国直辖军第 29 师" }
+		30 = { "帝国直辖军第 30 师" }
+
+	}
+}
+
+MOB_CAV_01 = {
+	name = "帝国防卫军番号"
+
+	for_countries = { MOB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "帝国防卫军第 %d 师"
+
+	ordered = {
+		1 = { "帝国防卫军第 1 师" }
+		2 = { "帝国防卫军第 2 师" }
+		3 = { "帝国防卫军第 3 师" }
+		4 = { "帝国防卫军第 4 师" }
+		5 = { "帝国防卫军第 5 师" }
+		6 = { "帝国防卫军第 6 师" }
+		7 = { "帝国防卫军第 7 师" }
+		8 = { "帝国防卫军第 7 师" }
+		9 = { "帝国防卫军第 8 师" }
+		10 = { "帝国防卫军第 10 师" }
+		11 = { "帝国防卫军第 11 师" }
+		12 = { "帝国防卫军第 12 师" }
+		13 = { "帝国防卫军第 13 师" }
+		14 = { "帝国防卫军第 14 师" }
+		15 = { "帝国防卫军第 15 师" }
+		16 = { "帝国防卫军第 16 师" }
+		17 = { "帝国防卫军第 17 师" }
+		18 = { "帝国防卫军第 18 师" }
+		19 = { "帝国防卫军第 19 师" }
+		20 = { "帝国防卫军第 20 师" }
+		21 = { "帝国防卫军第 21 师" }
+		22 = { "帝国防卫军第 22 师" }
+		23 = { "帝国防卫军第 23 师" }
+		24 = { "帝国防卫军第 24 师" }
+		25 = { "帝国防卫军第 25 师" }
+		26 = { "帝国防卫军第 26 师" }
+		27 = { "帝国防卫军第 27 师" }
+		28 = { "帝国防卫军第 28 师" }
+		29 = { "帝国防卫军第 29 师" }
+		30 = { "帝国防卫军第 30 师" }
+
+	}
+}
+
+MOB_MOT_01 = {
+	name = "轻坦装甲师番号"
+
+	for_countries = { MOB }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" }	
+
+	fallback_name = "轻坦装甲师第 %d 军"
+
+	ordered = {
+		1 = { "轻坦装甲师第 1 军" }
+		2 = { "轻坦装甲师第 2 军" }
+		3 = { "轻坦装甲师第 3 军" }
+		4 = { "轻坦装甲师第 4 军" }
+	}
+}
+
+MOB_ARM_01 = {
+	name = "国民突击队番号"
+
+	for_countries = { MOB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "国民突击队"
+
+	ordered = {
+		1 = { "Faizabad Armored Div." }
+		2 = { "Ghazni Armored Div." }
+		3 = { "Herat Armored Div." }
+		4 = { "Jalalabad Armored Div." }
+		5 = { "Kandahar Armored Div." }
+		6 = { "Maymeneh Armored Div." }
+		7 = { "Mazar-e Shar Armored Div." }
+		8 = { "Zahir Shah Armored Div." }
+		9 = { "Abdur Rahman Armored Div." }
+		10 = { "Nadir Shah Armored Div." }
+		11 = { "Dost Mohammed Armored Div." }
+		12 = { "Shah Shuja Armored Div." }
+		13 = { "Taloqan Armored Div." }
+		14 = { "Qondoz Armored Div." }
+		15 = { "Kholm Armored Div." }
+		16 = { "Aybak Armored Div." }
+		17 = { "Sheberghan Armored Div." }
+		18 = { "Balkh Armored Div." }
+		19 = { "Meymaneh Armored Div." }
+		20 = { "Dawlatabad Armored Div." }
+		21 = { "Tarin Kowt Armored Div." }
+		22 = { "Dalat Armored Div." }
+		23 = { "Khash Armored Div." }
+		24 = { "Lashkar Gan Armored Div." }
+		25 = { "Mirabad Armored Div." }
+		26 = { "%d. Armored Division" }
+		27 = { "%d. Armored Division" }
+		28 = { "%d. Armored Division" }
+		29 = { "%d. Armored Division" }
+		30 = { "%d. Armored Division" }
+
+	}
+}
+
+MOB_MEC_01 = {
+	name = "中坦装甲师番号"
+
+	for_countries = { MOB }
+
+	can_use = { always = yes }
+
+	division_types = { "medium_armor"  }
+
+	fallback_name = "中坦装甲师第 %d 军"
+
+	ordered = {
+		1 = { "中坦装甲师第 1 军" }
+		2 = { "中坦装甲师第 2 军" }
+	}
+}
+

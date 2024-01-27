@@ -1,0 +1,259 @@
+
+generic_decision_category = {
+
+    generic_adecision_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag}
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+		 clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =steel
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+	generic_oil_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag}
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+			clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =oil
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+	generic_rubber_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag}
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+		clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =rubber
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+    generic_chromium_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag}
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+		clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =chromium
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+	generic_tungsten_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag}
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+		clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =tungsten
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+	generic_aluminium_category = {
+	    icon = generic_construction
+		 ai_will_do = {
+			factor = 100
+		}
+	       modifier = {		
+			consumer_goods_factor = 0.05
+			}
+		days_remove = 30
+		
+		fire_only_once = no
+		days_re_enable = 30
+        available= {
+			NOT = {has_country_flag = adecision_flag }
+		}
+		complete_effect = {
+           set_country_flag = adecision_flag
+		}
+		remove_effect = {
+		clr_country_flag = adecision_flag
+			ROOT = {
+			    random_state ={
+				limit = {
+			       is_controlled_by = ROOT
+			       is_core_of = ROOT
+		        }
+			       add_resource = {
+		            type =aluminium
+					amount = 5
+		            }
+		        }
+			}
+        }
+	}
+}
+sg_decision_category = {
+	sg_hexinhua1 = {
+		name = generic_integrate_commune
+		icon = generic_nationalism
+		
+		cost = 50 
+		days_remove = 60
+		
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				
+			}
+			FROM = {
+				ROOT= {		
+					controller = {		
+						controls_state = FROM
+					}
+				}
+			NOT = {
+				is_core_of = ROOT
+				}
+			compliance > 30
+			}
+		}
+		
+		available = {
+			tag = ROOT
+			has_war = no
+			FROM = {
+				ROOT= {		
+					controller = {		
+						controls_state = FROM
+					}
+				}
+				
+				compliance > 50
+				
+			}
+		}
+		ai_will_do = {
+		 factor = 1000
+
+		}
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+		}
+	}
+}

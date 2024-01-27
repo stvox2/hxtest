@@ -1,0 +1,98 @@
+add_namespace = leg
+#军团登陆科奥科
+country_event = {
+	id = leg.1
+    picture = GFX_
+    title = leg.1.t 
+    desc = leg.1.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = leg.1.a  
+            transfer_state = 197
+            transfer_state = 198
+            country_event = { id = leg.2 }
+            hidden_effect = { load_oob = "LEG-远征军" }
+            custom_effect_tooltip = nea_LEG_incite_northeastern_army_tt
+	}
+    
+}
+country_event = {
+	id = leg.2
+    picture = GFX_
+    title = leg.2.t 
+    desc = leg.2.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = leg.1.a 
+         add_ideas = expeditionary_flange 
+           create_wargoal = { target = ORT type = annex_everything }
+           LOV = {country_event = { id = leg.3 }}
+		   ORT = {country_event = { id = ort.1 }}
+	}
+    
+}
+country_event = {
+	id = leg.3
+    picture = GFX_
+    title = leg.3.t 
+    desc = leg.3.d 
+
+    is_triggered_only = yes
+	
+    option = { 
+        name = leg.3.a  
+            LOV = { add_opinion_modifier = { target = LEG modifier = LEG_LOV_1_opinion } }
+	}
+    
+}
+
+country_event = {
+    id = leg.4
+    picture = GFX_
+    title = leg.4.t
+    desc = leg.4.d
+
+    trigger = {
+        has_war_with = FRO
+        has_war_with = ORT
+        has_war_with = SNO
+        NOT = { controls_state = 197 controls_state = 198 }
+    }
+    fire_only_once = yes
+    option = {
+        name = leg.4.a
+		ai_chance = { factor = 70 }
+        SNO = { country_event = { id = sno.2 days = 1}}
+    }
+    option = {
+        name = leg.4.b
+    }
+}
+
+country_event = {
+    id = leg.5
+    title = leg.5.t
+    desc = leg.5.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = leg.5.a
+        SNO = {
+            transfer_state = 198
+            transfer_state = 197
+         }
+        white_peace = SNO
+        white_peace = FRO
+        white_peace = ORT
+        white_peace = EIN
+        white_peace = MIC
+    }
+    option = {
+        name = leg.5.b
+    }
+}

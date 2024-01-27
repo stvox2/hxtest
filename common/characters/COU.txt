@@ -1,0 +1,184 @@
+characters={ 
+	COU_walundina={
+		name=瓦伦蒂娜
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/瓦伦蒂娜.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/瓦伦蒂娜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+
+	COU_wendi={
+		name=温蒂
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/温蒂.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/温蒂.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	COU_xiatigute={
+		name=夏提古特
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/夏提古特.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/夏提古特.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+		COU_feiluolunsi={
+			name=斐罗伦丝
+			portraits={
+				civilian={
+					large="gfx/leaders/COU/斐罗伦丝.dds"
+				}
+				army = {   
+					large="gfx/leaders/COU/斐罗伦丝.dds" 
+					small="gfx/interface/ideas/XXX.png"
+				}
+			
+			}
+			
+			corps_commander = {
+				legacy_id = 1
+				traits = {  }
+				skill = 5
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 5
+			}
+	    }  
+
+
+	COU_fating={
+		name=法婷
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/法婷.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/法婷.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}  
+
+	COU_mase={
+		name=玛瑟
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/玛瑟.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/玛瑟.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}  
+
+	COU_aerxipei={
+		name=阿尔西佩
+		portraits={
+			civilian={
+				large="gfx/leaders/COU/阿尔西佩.dds"
+			}
+			army = {   
+				large="gfx/leaders/COU/阿尔西佩.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	} 
+}
+	

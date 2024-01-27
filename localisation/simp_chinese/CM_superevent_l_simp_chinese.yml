@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+ #don't modify these 
+ CM_SE_title:0 "[CM_SE_title]"
+ CM_SE_desc:0 "[CM_SE_desc]"
+ CM_SE_btn:0 "[CM_SE_btn]"
+ CM_SE_title_missing:0 "fix ur stuffs!missing title"
+ CM_SE_desc_missing:0 "fix ur stuffs!missing desc.\n-CMCMC-"
+ CM_SE_btn_missing:0 "fix ur stuffs!no option text."
+ #custom stuffs below
+ CM_SE_title_1:0 "THE SHOWA RESTORATION"
+ CM_SE_desc_1:0 "\nangry waves swell from the depths of the miluo\nmount wu's peak is hazy with swirling clouds\nalone I stand in this murky and turbid world\nmy blood simmers in righteous anger"
+ CM_SE_btn_1:0 "\"Tenno Heika Banzai!\""
+ CM_SE_title_2:0 "THE FALL OF BERLIN LMAO"
+ CM_SE_desc_2:0 "\n\na german soldier proudly holding the german flag from the roof of a heavily damaged reichstag,taken by one of his squad mates."
+ CM_SE_btn_2:0 "A great victory for the German Empire,indeed."
+ CM_SE_title_3:0 "洛维尼亚亚人起义"
+ CM_SE_desc_3:0 "\n\在今天亚人起义军领袖玛瑞莎,在洛维尼亚北方发动起义.贵族们拿出屠刀残忍的镇压我们，但革命绝不会停滞不前，我们是世界的未来！同志们，为了每一个受压迫者而战！——人民之声"
+ CM_SE_btn_3:0 "你知道这意味着什么!"
+ 

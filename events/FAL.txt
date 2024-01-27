@@ -1,0 +1,187 @@
+add_namespace = fal
+country_event = {
+	id = fal.1
+    picture = GFX_
+    title = fal.1.t
+    desc = fal.1.d
+    trigger = {
+        tag = FAL
+        has_war_with = POS
+    }
+    fire_only_once = yes
+    hidden = no
+    immediate = { 
+		stability_factor = -0.03
+	}
+    option = { 
+        name = fal.1.a
+		trigger = {
+			tag = FAL
+		}
+        add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = fal.2
+    picture = GFX_
+    title = fal.2.t
+    desc = fal.2.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    immediate = { 
+		stability_factor = 0.1
+	}
+    option = { 
+        name = fal.2.a
+		trigger = {
+			tag = FAL
+		}
+        
+	}
+}
+
+#经济形势分析#
+country_event = {
+    id = fal.3
+    picture = GFX_
+    title = fal.3.t
+    desc = fal.3.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    immediate = { 
+        stability_factor = 0.1
+    }
+    option = { 
+        name = fal.3.a
+            trigger = {
+            tag = FAL
+        }
+        
+    }
+}
+#经济形势分析#
+country_event = {
+    id = fal.3
+    picture = GFX_
+    title = fal.3.t
+    desc = fal.3.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    immediate = { 
+        stability_factor = 0.1
+    }
+    option = { 
+        name = fal.3.a
+            trigger = {
+            tag = FAL
+        }
+        
+    }
+} 
+ #法兰复国战争#
+country_event = {
+    id = fal.4
+    picture = GFX_
+    title = fal.4.t
+    desc = fal.4.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    trigger = {
+		date > 4634.1.1
+	}
+    option = { 
+        name = fal.4.a
+            trigger = {
+            tag = MAG
+            }
+            hidden_effect = {
+                POS = {
+                    country_event = { id = POS.1 }  
+                 }
+            }
+            declare_war_on = { target = HAS type = annex_everything } 
+
+        }
+        
+}
+  #法兰复国#
+country_event = {
+    id = fal.5
+    picture = GFX_
+    title = fal.5.t
+    desc = fal.5.d
+    is_triggered_only = yes
+    fire_only_once = yes
+    hidden = no
+    immediate = {
+		hidden_effect = {
+			FAL = {
+				transfer_state = 55
+                add_state_core = 55
+                transfer_state = 92
+                add_state_core = 92
+                transfer_state = 93
+                add_state_core = 93
+                transfer_state = 94
+                add_state_core = 94
+				transfer_state = 95
+                add_state_core = 95
+				transfer_state = 96
+                add_state_core = 96
+				transfer_state = 97
+                add_state_core = 97
+				transfer_state = 98
+                add_state_core = 98
+				transfer_state = 99
+                add_state_core = 99
+				transfer_state = 100
+                add_state_core = 100
+				transfer_state = 101
+                add_state_core = 101
+				transfer_state = 102
+                add_state_core = 102
+				transfer_state = 103
+                add_state_core = 103
+				transfer_state = 104
+                add_state_core = 104
+				transfer_state = 105
+                add_state_core = 105
+				transfer_state = 106
+                add_state_core = 106
+				transfer_state = 107
+                add_state_core = 107
+				transfer_state = 108
+                add_state_core = 108
+				transfer_state = 109
+                add_state_core = 109
+                transfer_state = 110
+                add_state_core = 110
+                transfer_state = 1222
+                add_state_core = 1222
+                transfer_state = 1223
+                add_state_core = 1223
+			 }
+		}
+		
+    }
+    trigger = {
+        MAG = {
+            controls_state = 55
+         }
+		
+	}
+    option = { 
+        name = fal.4.a
+            trigger = {
+            tag = MAG
+            }
+             
+
+        }
+        
+}

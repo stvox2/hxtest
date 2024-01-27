@@ -1,0 +1,75 @@
+capital = 8
+
+set_technology = {
+	staff_samurai = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	defence_in_depth = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+set_research_slots = 5
+set_convoys = 5000
+oob = "SHE-4633"
+add_ideas = { 
+
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "4622.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+}
+set_autonomy = {
+	target = BER
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = POS
+	autonomous_state = autonomy_puppet
+}
+recruit_character = SHE_mihuiling
+recruit_character = SHE_ozhiqilin
+recruit_character = SHE_beihuanai
+recruit_character = SHE_banqihexi
+recruit_character = SHE_nilexiangnai
+recruit_character = SHE_funingfei
+recruit_character = SHE_yangjieyu
+recruit_character = SHE_yenaiya
+recruit_character = SHE_aigenisi
+recruit_character = SHE_makena
+recruit_character = SHE_xiaoan
+
+4636.1.1 = {
+	oob = "SHE-4636"
+	create_faction = SHE_insurrection
+	add_to_faction = SHE
+    add_to_faction = BER
+    add_to_faction = POS
+	add_ideas = { 
+    ai_ideas_1
+    }
+	declare_war_on = {
+		target = DUC
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = RUT
+		type = annex_everything
+	}
+}

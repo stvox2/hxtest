@@ -1,0 +1,115 @@
+
+music_station = "tdh"
+
+##########################
+########## 通用 ##########
+music = {
+	song = "tdh_Theatre_Ribet"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Secret_Spell"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Instrumental"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Witch_s_Diary"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Magical_World"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Future_Strike"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Eternal_Forest"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Dream_with_You"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Breath"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}
+music = {
+	song = "tdh_Chu"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			is_literally_china = yes
+			has_war = no
+		}
+	}
+}

@@ -1,0 +1,221 @@
+characters={ 
+	SHE_yangjieyu={
+		name=阳洁羽
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/阳洁羽.dds"
+			}
+			army = {   
+				large="gfx/leaders/SHE/阳洁羽.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		    traits = {  }
+			ideology= Fascism_ideology
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_mihuiling={
+		name=弥灰绫
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/弥灰绫.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_ozhiqilin={
+		name=欧志七霖
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/欧志七霖.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_beihuanai={
+		name=北化奈
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/北化奈.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_banqihexi={
+		name=般齐赫希
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/般齐赫希.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_nilexiangnai={
+		name=尼乐香奈
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/尼乐香奈.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_funingfei={
+		name=抚宁菲
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/抚宁菲.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_yenaiya={
+		name=野奈雅
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/野奈雅.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_aigenisi={
+		name=爱葛妮丝
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/爱葛妮丝.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_makena={
+		name=玛可娜
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/玛可娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	SHE_xiaoan={
+		name=小安
+		portraits={
+			civilian={
+				large="gfx/leaders/SHE/小安.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	
+}		

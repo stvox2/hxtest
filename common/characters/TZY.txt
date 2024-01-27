@@ -1,0 +1,219 @@
+characters={ 
+	TZY_lilimaliansanshi={
+		name=莉莉玛莲三世
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/莉莉玛莲三世.dds"
+			}
+			army = {   
+				large="gfx/leaders/TZY/莉莉玛莲三世.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+		    traits = {  }
+			ideology= socialism
+			expire="4999.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_nimideka={
+		name=尼米德卡
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/尼米德卡.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_fukelina={
+		name=芙可丽娜
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/芙可丽娜.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_feinila={
+		name=菲妮拉
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/菲妮拉.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_kelisiduo={
+		name=克莉丝多
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/克莉丝多.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_katelan={
+		name=卡特兰
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/卡特兰.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_biyoulai={
+		name=比优莱
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/比优莱.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_feidinisiya={
+		name=菲蒂尼丝娅
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/菲蒂尼丝娅.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_youliya={
+		name=尤利娅
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/尤利娅.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	TZY_katewen={
+		name=卡特文
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/卡特文.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	TZY_aisilan={
+		name=艾丝兰
+		portraits={
+			civilian={
+				large="gfx/leaders/TZY/艾丝兰.dds"
+			}
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}		

@@ -1,0 +1,103 @@
+characters={ 
+	WIM_weiliya={
+		name=薇莉娅
+		portraits={
+			civilian={
+				large="gfx/leaders/WIM/薇莉娅.dds"
+			}
+			army = {   
+				large="gfx/leaders/WIM/薇莉娅.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	WIM_fanluntingna={
+		name=范伦汀娜
+		portraits={
+			civilian={
+				large="gfx/leaders/WIM/范伦汀娜.dds"
+			}
+			army = {   
+				large="gfx/leaders/WIM/范伦汀娜.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	WIM_xitelei={
+		name=希特蕾
+		portraits={
+			civilian={
+				large="gfx/leaders/WIM/希特蕾.dds"
+			}
+			army = {   
+				large="gfx/leaders/WIM/希特蕾.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	WIM_kaluoer={
+		name=卡洛儿
+		portraits={
+			civilian={
+				large="gfx/leaders/WIM/卡洛儿.dds"
+			}
+			army = {   
+				large="gfx/leaders/WIM/卡洛儿.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}

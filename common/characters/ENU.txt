@@ -1,0 +1,225 @@
+characters={ 
+	ENU_miuyun={
+		name=缪云
+		portraits={
+			civilian={
+				large="gfx/leaders/ENU/缪云.dds"
+			}
+			army = {   
+				large="gfx/leaders/ENU/缪云.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_R={
+		name=R
+		portraits={
+			civilian={
+				large="gfx/leaders/ENU/R.dds"
+			}
+			army = {   
+				large="gfx/leaders/ENU/R.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_pohuaizhe={
+		name=破坏者
+		portraits={
+			civilian={
+				large="gfx/leaders/ENU/破坏者.dds"
+			}
+			army = {   
+				large="gfx/leaders/ENU/破坏者.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_xundaozhe={
+		name=殉道者
+		portraits={
+			civilian={
+				large="gfx/leaders/ENU/殉道者.dds"
+			}
+			army = {   
+				large="gfx/leaders/ENU/殉道者.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_caixia={
+		name=彩夏
+		portraits={
+			civilian={
+				large="gfx/leaders/ENU/彩夏.dds"
+			}
+			army = {   
+				large="gfx/leaders/ENU/彩夏.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_yilian={
+		name=伊莲
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/伊莲.dds"
+			}
+			army = {   
+				large="gfx/leaders/RED/伊莲.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_linai={
+		name=莉乃
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/莉乃.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/莉乃.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_miluoxita={
+		name=米洛茜塔
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/米洛茜塔.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/米洛茜塔.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	ENU_hedifuni={
+		name=赫蒂芙尼
+		portraits={
+			civilian={
+				large="gfx/leaders/STA/赫蒂芙尼.dds"
+			}
+			army = {   
+				large="gfx/leaders/STA/赫蒂芙尼.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+}
+	

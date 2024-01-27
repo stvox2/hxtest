@@ -1,0 +1,104 @@
+characters={ 
+	DIV_zhuqiu={
+		name=朱秋
+		portraits={
+			civilian={
+				large="gfx/leaders/DIV/朱秋.dds"
+			}
+			army = {   
+				large="gfx/leaders/DIV/朱秋.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		country_leader={
+			desc = ""
+				 traits = {  }
+				ideology= despotism 
+				expire="4999.1.1.1"
+				id=-1
+			}
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+
+	DIV_zhangxikai={
+		name=张希凯
+		portraits={
+			civilian={
+				large="gfx/leaders/DIV/张希凯.dds"
+			}
+			army = {   
+				large="gfx/leaders/DIV/张希凯.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+
+	DIV_anbai={
+		name=安白
+		portraits={
+			civilian={
+				large="gfx/leaders/DIV/安白.dds"
+			}
+			army = {   
+				large="gfx/leaders/DIV/安白.dds" 
+				small="gfx/interface/ideas/XXX.png"
+			}
+		
+		}
+		
+		corps_commander = {
+			legacy_id = 1
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+
+	}
+	DIV_wanghuacai={
+		name=汪花彩
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DIV/汪花彩.dds"
+			}
+			army = {
+				large = "gfx/leaders/DIV/汪花彩.dds"
+				small = "gfx/leaders/DIV/xxx.png"
+			}
+			 
+			corps_commander = {
+				legacy_id = 1
+			    traits = {  }
+			    skill = 5
+			    attack_skill = 4
+			    defense_skill = 3
+				maneuvering_skill = 3
+				coordination_skill = 3
+			}
+		}
+	}
+}
+	

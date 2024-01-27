@@ -1,0 +1,6 @@
+RIE_decision_category = {
+	allowed = {
+		tag = RIE
+	}
+	priority = 5
+}

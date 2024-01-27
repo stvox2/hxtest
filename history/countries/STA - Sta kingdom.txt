@@ -1,0 +1,49 @@
+capital = 439
+
+set_technology = {
+	staff_kingdom = 1
+	infantry_weapons = 1
+	basic_machine_tools = 1
+	gw_artillery = 1
+
+}
+set_research_slots = 5
+set_convoys = 20
+oob = "STA-4633"
+add_ideas = { 
+	STA_ideas_1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "4622.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+recruit_character = STA_sitawushi
+recruit_character = STA_zhennimajuewang
+recruit_character = STA_linai
+recruit_character = STA_ruibeika
+recruit_character = STA_kadi
+recruit_character = STA_jiangyu
+recruit_character = STA_jiangxue
+recruit_character = STA_hedifuni
+recruit_character = STA_hedilan
+recruit_character = STA_airuiqi
+recruit_character = STA_aimisha
+recruit_character = STA_miluoxita
+
+4636.1.1 = {
+
+	retire_character = STA_linai
+	retire_character = STA_miluoxita
+	retire_character = STA_hedifuni
+
+}
